@@ -81,7 +81,19 @@
     { "french": "la nationalité", "english": "the nationality", "notes": "Feminine." },
     { "french": "la date de naissance", "english": "the date of birth", "notes": "Feminine." },
     { "french": "le lieu de naissance", "english": "the place of birth", "notes": "Masculine." },
-    { "french": "l'adresse", "english": "the address", "notes": "Feminine. Takes l' because it starts with a vowel." }
+    { "french": "l'adresse", "english": "the address", "notes": "Feminine. Takes l' because it starts with a vowel." },
+    { "french": "un acteur / une actrice", "english": "an actor / an actress", "notes": "Irregular feminine: -eur → -rice. E.g. Kristin Scott Thomas est une actrice." },
+    { "french": "un écrivain / une écrivaine", "english": "a writer", "notes": "Feminine form: écrivaine. 'Écrivain' was traditionally masculine-only but the feminine is now standard." },
+    { "french": "avec", "english": "with", "notes": "Preposition. 'Je viens avec toi.' = I'm coming with you." },
+    { "french": "comment", "english": "how / what", "notes": "Used in questions: Comment ça va ? (How are you?), Comment s'appelle-t-elle ? (What is her name?)" },
+    { "french": "quel / quelle / quels / quelles", "english": "what / which", "notes": "Interrogative adjective — agrees with the noun it describes. quel (masc. sing.), quelle (fem. sing.), quels (masc. pl.), quelles (fem. pl.)." },
+    { "french": "quand", "english": "when", "notes": "Used in questions: Quand est-elle née ? = When was she born?" },
+    { "french": "oui", "english": "yes", "notes": "Standard affirmative. In formal/emphatic contexts 'Si' is used to contradict a negative question." },
+    { "french": "non", "english": "no", "notes": "Standard negative. 'Non merci' = No thank you." },
+    { "french": "la femme", "english": "the woman / the wife", "notes": "Feminine. Context determines meaning: 'une femme' = a woman; 'ma femme' = my wife." },
+    { "french": "né(e)", "english": "born (past participle)", "notes": "Masculine: né. Feminine: née (double-e). 'Elle est née en 1960.' = She was born in 1960." },
+    { "french": "à", "english": "at / to / in", "notes": "Very common preposition. Used with cities (à Paris), time (à 8h), and expressions (à bientôt). Always carries an accent — don't confuse with 'a' (has, 3rd person avoir)." },
+    { "french": "mille", "english": "one thousand (1 000)", "notes": "Used in years: 1960 = mille neuf cent soixante. Important: 'mille' never takes an -s in French (not 'milles')." }
   ],
   "verbs": [
     {
@@ -296,6 +308,79 @@
         "J'attends le bus. — I am waiting for the bus.",
         "Nous attendons ici. — We are waiting here."
       ]
+    },
+    {
+      "infinitive": "regarder",
+      "meaning": "to watch / to look at",
+      "conjugations": {
+        "je": "regarde",
+        "tu": "regardes",
+        "il/elle": "regarde",
+        "nous": "regardons",
+        "vous": "regardez",
+        "ils/elles": "regardent"
+      },
+      "notes": "Regular -ER verb. Note the common mistake 'regadrez' — correct form is always regardez. The final -ent in ils/elles is silent.",
+      "examples": [
+        "Je regarde la télévision. — I watch television.",
+        "Elle regarde par la fenêtre. — She looks out the window.",
+        "Regardez ! — Look! (command, formal/plural)"
+      ]
+    },
+    {
+      "infinitive": "lire",
+      "meaning": "to read",
+      "conjugations": {
+        "je": "lis",
+        "tu": "lis",
+        "il/elle": "lit",
+        "nous": "lisons",
+        "vous": "lisez",
+        "ils/elles": "lisent"
+      },
+      "notes": "Irregular verb. Je/tu end in -lis, il/elle ends in -lit (silent t). The stem changes: lir- → lis- / lis- / lit- / lis-.",
+      "examples": [
+        "Je lis un livre. — I am reading a book.",
+        "Tu lis le journal ? — Are you reading the newspaper?",
+        "Ils lisent beaucoup. — They read a lot."
+      ]
+    },
+    {
+      "infinitive": "dire",
+      "meaning": "to say / to tell",
+      "conjugations": {
+        "je": "dis",
+        "tu": "dis",
+        "il/elle": "dit",
+        "nous": "disons",
+        "vous": "dites",
+        "ils/elles": "disent"
+      },
+      "notes": "Irregular verb. Key exception: vous dites (NOT 'vous disez' — this is one of very few irregular vous forms). Compare: faire → vous faites, être → vous êtes.",
+      "examples": [
+        "Je dis la vérité. — I am telling the truth.",
+        "Qu'est-ce que tu dis ? — What are you saying?",
+        "Comment dit-on 'hello' en français ? — How do you say 'hello' in French?"
+      ]
+    },
+    {
+      "infinitive": "connaître",
+      "meaning": "to know (a person or place)",
+      "conjugations": {
+        "je": "connais",
+        "tu": "connais",
+        "il/elle": "connaît",
+        "nous": "connaissons",
+        "vous": "connaissez",
+        "ils/elles": "connaissent"
+      },
+      "notes": "Irregular verb. Note the circumflex on il/elle connaît. IMPORTANT distinction: connaître = to know a person/place (familiarity). savoir = to know a fact or how to do something. 'Je connais Marie' (I know Marie) vs 'Je sais qu'elle est médecin' (I know that she is a doctor).",
+      "examples": [
+        "Je connais Marie. — I know Marie.",
+        "Oui, je les connais. — Yes, I know them.",
+        "Non, je ne les connais pas. — No, I don't know them.",
+        "Vous connaissez Paris ? — Do you know Paris?"
+      ]
     }
   ],
   "grammar": [
@@ -358,6 +443,26 @@
     {
       "title": "Tu vs Vous",
       "explanation": "Tu = singular informal (friends, family, children, peers). Vous = singular formal (strangers, elders, professionals) OR any group (2+ people). Always start with 'vous' with someone you've just met professionally. Switching from vous to tu is called 'tutoyer' and is usually suggested by the other person."
+    },
+    {
+      "title": "Interrogative adjective — Quel / Quelle / Quels / Quelles",
+      "explanation": "Used to ask 'what' or 'which' before a noun. Must agree with the gender and number of the noun it modifies. quel (masc. sing.) — Quel est ton prénom ? | quelle (fem. sing.) — Quelle est ta nationalité ? | quels (masc. pl.) — Quels acteurs aimes-tu ? | quelles (fem. pl.) — Quelles langues parles-tu ? The actress example from class: 'Quel est le prénom de l'actrice ?' — 'Le prénom de l'actrice est Kristin.'"
+    },
+    {
+      "title": "Verb naître — to be born",
+      "explanation": "Naître is an irregular verb used to talk about birth. The key form is the past participle né(e), used with être: 'Elle est née en 1960' (She was born in 1960). The feminine adds a second -e: né → née. To say a year in French: 1960 = mille neuf cent soixante (1000 + 900 + 60). Never say 'dix-neuf cent' for years — always 'mille neuf cent'."
+    },
+    {
+      "title": "Direct object pronouns — les, le, la, l'",
+      "explanation": "Object pronouns replace a noun that is the direct object of the verb and are placed BEFORE the verb. les = them (plural), le = him/it (masc.), la = her/it (fem.), l' = him/her before a vowel. Critical word order: Subject + pronoun + verb. 'Je connais Marie' → 'Je la connais.' 'Je connais les acteurs' → 'Je les connais.' In negation: ne comes before the pronoun — 'Je ne les connais pas.' (NOT 'je ne connais les pas' or 'je ne pas les connais')."
+    },
+    {
+      "title": "Word order with negation and object pronouns",
+      "explanation": "The correct structure is: [Subject] + ne + [object pronoun] + [verb] + pas. Example: 'Non, je ne les connais pas.' — the pronoun (les) sits between ne and the verb (connais), and pas comes after the verb. Common errors corrected in class: ✗ 'je ne pas les connais' (pas in wrong place) ✗ 'je ne connais les pas' (pronoun after verb) ✓ 'je ne les connais pas' (correct order)"
+    },
+    {
+      "title": "How to read years in French",
+      "explanation": "Years are read as full numbers. 1960 = mille neuf cent soixante (literally: thousand nine hundred sixty). Structure: mille [hundreds] [tens/units]. More examples: 1985 = mille neuf cent quatre-vingt-cinq | 2000 = deux mille | 2026 = deux mille vingt-six. Remember: 'mille' never takes an -s, and soixante-dix (70), quatre-vingts (80), quatre-vingt-dix (90) apply to years just as to regular numbers."
     }
   ],
   "key_phrases": [
@@ -386,7 +491,12 @@
     { "french": "À bientôt !", "english": "See you soon!", "context": "Casual goodbye" },
     { "french": "À demain !", "english": "See you tomorrow!", "context": "Leaving at end of day" },
     { "french": "Bonne journée !", "english": "Have a good day!", "context": "Said when parting during the day" },
-    { "french": "J'ai un passeport dans mon sac.", "english": "I have a passport in my bag.", "context": "Model sentence using avoir + preposition + possessive" }
+    { "french": "Non, je ne les connais pas.", "english": "No, I don't know them.", "context": "Model sentence for negation + object pronoun word order" },
+    { "french": "Oui, je les connais.", "english": "Yes, I know them.", "context": "Model sentence for object pronoun placement" },
+    { "french": "Quel est le prénom de l'actrice ?", "english": "What is the actress's first name?", "context": "Using quel with a feminine noun — quel agrees with prénom (masc.), not actrice" },
+    { "french": "L'actrice s'appelle Kristin Scott Thomas.", "english": "The actress's name is Kristin Scott Thomas.", "context": "Introducing a third person using s'appeler" },
+    { "french": "Elle est née en mille neuf cent soixante.", "english": "She was born in 1960.", "context": "Stating a birth year — uses être + né(e)" },
+    { "french": "J'associe le numéro 1 avec la fiche C.", "english": "I associate number 1 with card C.", "context": "Classroom instruction language for matching exercises" }
   ],
   "cultural_notes": [
     {
@@ -588,6 +698,32 @@
         "Worksheet A Answers: é sounds → été, joué, café | è sounds → père, très | oi sounds → moi, oiseau, froid | ou sounds → cou, soupe",
         "Worksheet B — Fill in the accent: caf_é → café | fr_oi_d → froid | s_ou_pe → soupe | m_oi → moi | ch_au_d → chaud | s_oi_r → soir | b_ê_te → bête",
         "Worksheet C — Match word to pronunciation: maison → meh-zon | garçon → gar-son | café → ca-fay | oiseau → wah-zo"
+      ]
+    },
+    {
+      "label": "✍️ Class Correction Drill — Negation + Object Pronouns",
+      "icon": "✍️",
+      "content": "In class, the correct word order for negation with object pronouns was drilled. Study these corrections carefully — this is one of the most common beginner mistakes.",
+      "items": [
+        "❌ non je ne pas les connais — WRONG: 'pas' cannot come before the pronoun",
+        "❌ non, je ne connais les pas — WRONG: pronoun must come before the verb, not after",
+        "✅ non, je ne les connais pas — CORRECT order: ne + [pronoun] + [verb] + pas",
+        "Rule: Subject + ne + object pronoun + verb + pas",
+        "Positive version: Oui, je les connais. (pronoun still goes before the verb)",
+        "Memory trick: the pronoun 'hugs' the verb — it's always directly before it"
+      ]
+    },
+    {
+      "label": "🎬 Class Example — Kristin Scott Thomas",
+      "icon": "🎬",
+      "content": "This actress was used in class to practise professions, quel/quelle, and birth years.",
+      "items": [
+        "L'actrice s'appelle Kristin Scott Thomas.",
+        "Quel est le prénom de l'actrice ? — Le prénom est Kristin. (quel agrees with 'prénom', not 'actrice')",
+        "Quel est le nom de l'actrice ? — Le nom est Scott Thomas.",
+        "Elle est née en mille neuf cent soixante. (born in 1960)",
+        "un acteur = male actor | une actrice = female actress",
+        "un écrivain = male writer | une écrivaine = female writer"
       ]
     }
   ]
