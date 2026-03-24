@@ -557,6 +557,37 @@
   .extra-title { font-size: 14px; font-weight: 500; margin-bottom: 8px; }
   .extra-body { font-size: 14px; line-height: 1.7; color: var(--muted); }
 
+  /* ── Speak Button ── */
+  .speak-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    color: var(--muted);
+    font-size: 13px;
+    flex-shrink: 0;
+    transition: all 0.15s;
+    vertical-align: middle;
+    margin-left: 6px;
+    padding: 0;
+    line-height: 1;
+  }
+  .speak-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
+  .speak-btn.speaking { border-color: var(--accent); color: var(--accent); background: var(--accent-light); animation: pulse-ring 0.8s ease-in-out infinite; }
+  @keyframes pulse-ring { 0%,100% { box-shadow: 0 0 0 0 rgba(45,90,61,0.3); } 50% { box-shadow: 0 0 0 4px rgba(45,90,61,0); } }
+
+  .conj-cell { position: relative; padding-right: 34px; }
+  .conj-cell .speak-btn { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; font-size: 11px; opacity: 0; transition: opacity 0.15s; margin: 0; }
+  .conj-cell:hover .speak-btn { opacity: 1; }
+
+  .phrase-header { display: flex; align-items: flex-start; gap: 6px; }
+  .phrase-header .phrase-fr { flex: 1; }
+
   /* ── Responsive ── */
   @media (max-width: 700px) {
     aside { display: none; }
@@ -664,6 +695,55 @@ function renderLesson(l) {
   `;
 }
 
+// ── Text-to-Speech Engine ─────────────────────────────────────────────────────
+const TTS = (() => {
+  const synth = window.speechSynthesis;
+  let frVoice = null;
+  let currentBtn = null;
+
+  // Load voices — they arrive asynchronously in most browsers
+  function loadVoice() {
+    const voices = synth.getVoices();
+    // Prefer fr-FR, fall back to any French voice
+    frVoice = voices.find(v => v.lang === 'fr-FR')
+           || voices.find(v => v.lang.startsWith('fr'))
+           || null;
+  }
+  loadVoice();
+  if (synth.onvoiceschanged !== undefined) synth.onvoiceschanged = loadVoice;
+
+  function speak(text, btn) {
+    if (!synth) return;
+    synth.cancel();
+    if (currentBtn) { currentBtn.classList.remove('speaking'); currentBtn.textContent = '🔊'; }
+    if (currentBtn === btn) { currentBtn = null; return; } // toggle off
+
+    const utt = new SpeechSynthesisUtterance(text);
+    utt.lang = 'fr-FR';
+    utt.rate = 0.88;
+    utt.pitch = 1;
+    if (frVoice) utt.voice = frVoice;
+
+    btn.classList.add('speaking');
+    btn.textContent = '⏹';
+    currentBtn = btn;
+
+    utt.onend = utt.onerror = () => {
+      btn.classList.remove('speaking');
+      btn.textContent = '🔊';
+      if (currentBtn === btn) currentBtn = null;
+    };
+    synth.speak(utt);
+  }
+
+  return { speak, available: !!synth };
+})();
+
+function speakBtn(text) {
+  const safe = text.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+  return `<button class="speak-btn" title="Listen" onclick="event.stopPropagation();TTS.speak('${safe}',this)">🔊</button>`;
+}
+
 // ── Section Builders ──────────────────────────────────────────────────────────
 function buildSections(l) {
   const secs = [];
@@ -699,7 +779,7 @@ function buildSections(l) {
 function buildVocab(vocab) {
   const rows = vocab.map(v => `
     <tr>
-      <td><span class="vocab-fr">${v.french}</span></td>
+      <td><span class="vocab-fr">${v.french}</span>${speakBtn(v.french)}</td>
       <td>${v.english}</td>
       <td><span class="vocab-note">${v.notes || ''}</span></td>
     </tr>
@@ -718,15 +798,16 @@ function buildVerbs(verbs) {
       <div class="conj-cell">
         <span class="conj-pronoun">${pronoun}</span>
         <span class="conj-form">${form}</span>
+        ${speakBtn(pronoun + ' ' + form)}
       </div>
     `).join('');
     const examples = (v.examples || []).map(ex => {
       const [fr, en] = ex.split(' — ');
-      return `<li><span class="ex-fr">${fr}</span>${en ? ' — ' + en : ''}</li>`;
+      return `<li><span class="ex-fr">${fr}</span>${speakBtn(fr)}${en ? ' — ' + en : ''}</li>`;
     }).join('');
     return `
       <div class="verb-block">
-        <div class="verb-title">${v.infinitive}</div>
+        <div class="verb-title">${v.infinitive}${speakBtn(v.infinitive)}</div>
         <div class="verb-meaning">${v.meaning}</div>
         <div class="conj-grid">${conj}</div>
         ${v.notes ? `<div class="verb-note">${v.notes}</div>` : ''}
@@ -750,7 +831,10 @@ function buildGrammar(grammar) {
 function buildPhrases(phrases) {
   const items = phrases.map(p => `
     <div class="phrase-card">
-      <div class="phrase-fr">${p.french}</div>
+      <div class="phrase-header">
+        <div class="phrase-fr">${p.french}</div>
+        ${speakBtn(p.french)}
+      </div>
       <div class="phrase-en">${p.english}</div>
       ${p.context ? `<div class="phrase-ctx">${p.context}</div>` : ''}
     </div>
@@ -776,7 +860,7 @@ function buildPractice(exercises) {
         <div class="exercise-item" id="${id}">
           <div style="flex:1">
             <div class="exercise-prompt">${item.prompt}</div>
-            <div class="answer-text" id="ans-${id}">${item.answer}</div>
+            <div class="answer-text" id="ans-${id}">${item.answer}${speakBtn(item.answer)}</div>
           </div>
           <button class="show-answer-btn" onclick="toggleAnswer('${id}')">Show answer</button>
         </div>
