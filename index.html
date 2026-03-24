@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>French Learning Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #faf8f4;
+    --surface: #ffffff;
+    --surface2: #f3f0ea;
+    --border: #e8e3d8;
+    --text: #1a1814;
+    --muted: #6b6558;
+    --accent: #2d5a3d;
+    --accent-light: #e8f0eb;
+    --accent2: #8b4513;
+    --accent2-light: #f5ece4;
+    --blue: #1e3a5f;
+    --blue-light: #e8eef5;
+    --gold: #b8860b;
+    --gold-light: #fdf6e3;
+    --flag-blue: #002395;
+    --flag-red: #ED2939;
+    --radius: 12px;
+    --shadow: 0 2px 12px rgba(0,0,0,0.07);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 64px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .flag {
+    display: flex;
+    width: 28px;
+    height: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  }
+  .flag span { flex: 1; }
+  .flag .f1 { background: var(--flag-blue); }
+  .flag .f2 { background: white; }
+  .flag .f3 { background: var(--flag-red); }
+
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+  }
+
+  header h1 em { font-style: italic; color: var(--accent); }
+
+  .header-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .lesson-count {
+    font-size: 13px;
+    color: var(--muted);
+    background: var(--surface2);
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+  }
+
+  /* ── Layout ── */
+  .layout {
+    display: flex;
+    min-height: calc(100vh - 64px);
+  }
+
+  /* ── Sidebar ── */
+  aside {
+    width: 240px;
+    flex-shrink: 0;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    padding: 24px 0;
+    overflow-y: auto;
+    position: sticky;
+    top: 64px;
+    height: calc(100vh - 64px);
+  }
+
+  .sidebar-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 0 20px 10px;
+  }
+
+  .lesson-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-left: 3px solid transparent;
+    transition: all 0.15s;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .lesson-item:hover { background: var(--surface2); }
+
+  .lesson-item.active {
+    background: var(--accent-light);
+    border-left-color: var(--accent);
+  }
+
+  .lesson-num {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+    flex-shrink: 0;
+    color: var(--muted);
+  }
+
+  .lesson-item.active .lesson-num {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: white;
+  }
+
+  .lesson-info { flex: 1; min-width: 0; }
+
+  .lesson-info-title {
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .lesson-info-date {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  /* ── Main Content ── */
+  main {
+    flex: 1;
+    padding: 32px;
+    max-width: 900px;
+    overflow-y: auto;
+  }
+
+  /* ── Empty state ── */
+  .empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    text-align: center;
+    gap: 12px;
+    color: var(--muted);
+  }
+
+  .empty-state .big-emoji { font-size: 48px; }
+  .empty-state h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: var(--text);
+  }
+  .empty-state p { font-size: 14px; max-width: 340px; line-height: 1.7; }
+
+  /* ── Lesson Header ── */
+  .lesson-header {
+    margin-bottom: 28px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .lesson-eyebrow {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+
+  .lesson-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 10px;
+  }
+
+  .lesson-meta {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .meta-pill {
+    font-size: 12px;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  /* ── Section Nav ── */
+  .section-nav {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+  }
+
+  .sec-btn {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    color: var(--muted);
+    transition: all 0.15s;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .sec-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .sec-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
+
+  /* ── Cards ── */
+  .section-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface2);
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .card-header h2 {
+    font-size: 15px;
+    font-weight: 500;
+    flex: 1;
+  }
+
+  .card-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    flex-shrink: 0;
+  }
+
+  .card-count {
+    font-size: 12px;
+    color: var(--muted);
+    background: var(--surface);
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+  }
+
+  .collapse-arrow {
+    font-size: 12px;
+    color: var(--muted);
+    transition: transform 0.2s;
+  }
+
+  .card-body { padding: 20px; }
+  .card-body.hidden { display: none; }
+
+  /* ── Vocabulary Table ── */
+  .vocab-table { width: 100%; border-collapse: collapse; }
+
+  .vocab-table th {
+    text-align: left;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 0 12px 10px;
+  }
+
+  .vocab-table td {
+    padding: 10px 12px;
+    font-size: 14px;
+    border-top: 1px solid var(--border);
+    vertical-align: top;
+  }
+
+  .vocab-table tr:first-child td { border-top: none; }
+
+  .vocab-fr {
+    font-weight: 500;
+    color: var(--accent);
+    font-style: italic;
+  }
+
+  .vocab-note {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  /* ── Verb Card ── */
+  .verb-block { margin-bottom: 24px; }
+  .verb-block:last-child { margin-bottom: 0; }
+
+  .verb-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--accent2);
+    margin-bottom: 4px;
+  }
+
+  .verb-meaning {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+
+  .conj-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+
+  .conj-cell {
+    background: var(--accent2-light);
+    border: 1px solid #e8d8cc;
+    border-radius: 8px;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .conj-pronoun { font-size: 12px; color: var(--muted); }
+  .conj-form { font-size: 14px; font-weight: 500; color: var(--accent2); }
+
+  .verb-note {
+    font-size: 13px;
+    color: var(--muted);
+    background: var(--surface2);
+    padding: 8px 12px;
+    border-radius: 8px;
+    border-left: 3px solid var(--accent2);
+    margin-bottom: 10px;
+  }
+
+  .verb-examples { list-style: none; }
+  .verb-examples li {
+    font-size: 13px;
+    padding: 5px 0;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+  }
+  .verb-examples li:first-child { border-top: none; }
+  .verb-examples .ex-fr { color: var(--text); font-weight: 500; font-style: italic; }
+
+  /* ── Grammar ── */
+  .grammar-item { margin-bottom: 16px; }
+  .grammar-item:last-child { margin-bottom: 0; }
+
+  .grammar-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .grammar-title::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: var(--blue);
+    border-radius: 50%;
+  }
+
+  .grammar-body {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--muted);
+    padding-left: 14px;
+  }
+
+  /* ── Key Phrases ── */
+  .phrase-list { display: flex; flex-direction: column; gap: 10px; }
+
+  .phrase-card {
+    background: var(--blue-light);
+    border: 1px solid #ccd8e8;
+    border-radius: 10px;
+    padding: 12px 16px;
+  }
+
+  .phrase-fr {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--blue);
+    margin-bottom: 4px;
+  }
+
+  .phrase-en {
+    font-size: 13px;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+
+  .phrase-ctx {
+    font-size: 11px;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  /* ── Cultural Notes ── */
+  .cultural-item { margin-bottom: 16px; }
+  .cultural-item:last-child { margin-bottom: 0; }
+
+  .cultural-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: var(--gold);
+  }
+
+  .cultural-body {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--muted);
+    background: var(--gold-light);
+    border-left: 3px solid var(--gold);
+    padding: 10px 14px;
+    border-radius: 0 8px 8px 0;
+  }
+
+  /* ── Practice ── */
+  .exercise-block { margin-bottom: 24px; }
+  .exercise-block:last-child { margin-bottom: 0; }
+
+  .exercise-type {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+
+  .exercise-instruction {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+
+  .exercise-items { display: flex; flex-direction: column; gap: 8px; }
+
+  .exercise-item {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .exercise-prompt { flex: 1; font-size: 14px; }
+
+  .show-answer-btn {
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    color: var(--muted);
+    font-family: 'DM Sans', sans-serif;
+    white-space: nowrap;
+    transition: all 0.15s;
+  }
+
+  .show-answer-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  .answer-text {
+    font-size: 13px;
+    color: var(--accent);
+    font-weight: 500;
+    font-style: italic;
+    display: none;
+    margin-top: 6px;
+    padding-top: 6px;
+    border-top: 1px solid var(--border);
+  }
+
+  /* ── Extra Sections ── */
+  .extra-section { margin-bottom: 16px; }
+  .extra-title { font-size: 14px; font-weight: 500; margin-bottom: 8px; }
+  .extra-body { font-size: 14px; line-height: 1.7; color: var(--muted); }
+
+  /* ── Responsive ── */
+  @media (max-width: 700px) {
+    aside { display: none; }
+    main { padding: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="flag"><span class="f1"></span><span class="f2"></span><span class="f3"></span></div>
+  <h1>French <em>Tracker</em></h1>
+  <div class="header-right">
+    <span class="lesson-count" id="lesson-count">Loading...</span>
+  </div>
+</header>
+
+<div class="layout">
+  <aside id="sidebar">
+    <div class="sidebar-label">Lessons</div>
+    <div id="lesson-list"></div>
+  </aside>
+
+  <main id="main-content">
+    <div class="empty-state" id="empty-state">
+      <div class="big-emoji">🇫🇷</div>
+      <h2>Select a lesson to begin</h2>
+      <p>Your French lessons will appear in the sidebar. Click one to view its vocabulary, verbs, grammar, and more.</p>
+    </div>
+    <div id="lesson-view" style="display:none"></div>
+  </main>
+</div>
+
+<script>
+// ── Config: list all lesson JSON files here ──────────────────────────────────
+// Add a new entry each day when you upload a lesson.
+const LESSONS = [
+  'lessons/lesson-01.json',
+  // 'lessons/lesson-02.json',
+  // 'lessons/lesson-03.json',
+];
+
+// ── State ────────────────────────────────────────────────────────────────────
+let allLessons = [];
+let activeIndex = -1;
+
+// ── Boot ─────────────────────────────────────────────────────────────────────
+async function init() {
+  const results = await Promise.allSettled(LESSONS.map(f => fetch(f).then(r => r.json())));
+  allLessons = results
+    .map((r, i) => r.status === 'fulfilled' ? r.value : null)
+    .filter(Boolean);
+
+  document.getElementById('lesson-count').textContent =
+    `${allLessons.length} lesson${allLessons.length !== 1 ? 's' : ''}`;
+
+  renderSidebar();
+  if (allLessons.length > 0) selectLesson(0);
+}
+
+// ── Sidebar ───────────────────────────────────────────────────────────────────
+function renderSidebar() {
+  const list = document.getElementById('lesson-list');
+  list.innerHTML = allLessons.map((l, i) => `
+    <div class="lesson-item ${i === activeIndex ? 'active' : ''}" onclick="selectLesson(${i})">
+      <div class="lesson-num">${l.meta.lesson_number}</div>
+      <div class="lesson-info">
+        <div class="lesson-info-title">${l.meta.title}</div>
+        <div class="lesson-info-date">${formatDate(l.meta.date)}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function selectLesson(i) {
+  activeIndex = i;
+  renderSidebar();
+  renderLesson(allLessons[i]);
+}
+
+// ── Lesson Renderer ───────────────────────────────────────────────────────────
+function renderLesson(l) {
+  document.getElementById('empty-state').style.display = 'none';
+  const view = document.getElementById('lesson-view');
+  view.style.display = 'block';
+
+  const sections = buildSections(l);
+  const navButtons = sections.map(s =>
+    `<button class="sec-btn" onclick="scrollToSection('${s.id}')">${s.label}</button>`
+  ).join('');
+
+  view.innerHTML = `
+    <div class="lesson-header">
+      <div class="lesson-eyebrow">Lesson ${l.meta.lesson_number}</div>
+      <div class="lesson-title">${l.meta.title}</div>
+      <div class="lesson-meta">
+        <span class="meta-pill">📅 ${formatDate(l.meta.date)}</span>
+        <span class="meta-pill">🎯 ${l.meta.difficulty}</span>
+        ${l.meta.duration_minutes ? `<span class="meta-pill">⏱ ${l.meta.duration_minutes} min</span>` : ''}
+        ${l.meta.topic ? `<span class="meta-pill">📌 ${l.meta.topic}</span>` : ''}
+      </div>
+    </div>
+    <div class="section-nav">${navButtons}</div>
+    ${sections.map(s => s.html).join('')}
+  `;
+}
+
+// ── Section Builders ──────────────────────────────────────────────────────────
+function buildSections(l) {
+  const secs = [];
+
+  if (l.vocabulary?.length)
+    secs.push({ id: 'vocab', label: '📚 Vocabulary', html: buildVocab(l.vocabulary) });
+
+  if (l.verbs?.length)
+    secs.push({ id: 'verbs', label: '🔄 Verbs', html: buildVerbs(l.verbs) });
+
+  if (l.grammar?.length)
+    secs.push({ id: 'grammar', label: '📝 Grammar', html: buildGrammar(l.grammar) });
+
+  if (l.key_phrases?.length)
+    secs.push({ id: 'phrases', label: '💬 Phrases', html: buildPhrases(l.key_phrases) });
+
+  if (l.cultural_notes?.length)
+    secs.push({ id: 'culture', label: '📖 Culture', html: buildCulture(l.cultural_notes) });
+
+  if (l.practice_exercises?.length)
+    secs.push({ id: 'practice', label: '🎯 Practice', html: buildPractice(l.practice_exercises) });
+
+  if (l.extra_sections?.length) {
+    l.extra_sections.forEach((sec, i) => {
+      const id = `extra-${i}`;
+      secs.push({ id, label: sec.label || 'Extra', html: buildExtra(sec, id) });
+    });
+  }
+
+  return secs;
+}
+
+function buildVocab(vocab) {
+  const rows = vocab.map(v => `
+    <tr>
+      <td><span class="vocab-fr">${v.french}</span></td>
+      <td>${v.english}</td>
+      <td><span class="vocab-note">${v.notes || ''}</span></td>
+    </tr>
+  `).join('');
+  return card('vocab', '📚', 'Vocabulary', `${vocab.length} words`, `
+    <table class="vocab-table">
+      <tr><th>French</th><th>English</th><th>Notes</th></tr>
+      ${rows}
+    </table>
+  `);
+}
+
+function buildVerbs(verbs) {
+  const blocks = verbs.map(v => {
+    const conj = Object.entries(v.conjugations).map(([pronoun, form]) => `
+      <div class="conj-cell">
+        <span class="conj-pronoun">${pronoun}</span>
+        <span class="conj-form">${form}</span>
+      </div>
+    `).join('');
+    const examples = (v.examples || []).map(ex => {
+      const [fr, en] = ex.split(' — ');
+      return `<li><span class="ex-fr">${fr}</span>${en ? ' — ' + en : ''}</li>`;
+    }).join('');
+    return `
+      <div class="verb-block">
+        <div class="verb-title">${v.infinitive}</div>
+        <div class="verb-meaning">${v.meaning}</div>
+        <div class="conj-grid">${conj}</div>
+        ${v.notes ? `<div class="verb-note">${v.notes}</div>` : ''}
+        ${examples ? `<ul class="verb-examples">${examples}</ul>` : ''}
+      </div>
+    `;
+  }).join('<hr style="border:none;border-top:1px solid var(--border);margin:20px 0">');
+  return card('verbs', '🔄', 'Verbs to Conjugate', `${verbs.length} verb${verbs.length !== 1 ? 's' : ''}`, blocks);
+}
+
+function buildGrammar(grammar) {
+  const items = grammar.map(g => `
+    <div class="grammar-item">
+      <div class="grammar-title">${g.title}</div>
+      <div class="grammar-body">${g.explanation}</div>
+    </div>
+  `).join('');
+  return card('grammar', '📝', 'Grammar Notes', `${grammar.length} rule${grammar.length !== 1 ? 's' : ''}`, items);
+}
+
+function buildPhrases(phrases) {
+  const items = phrases.map(p => `
+    <div class="phrase-card">
+      <div class="phrase-fr">${p.french}</div>
+      <div class="phrase-en">${p.english}</div>
+      ${p.context ? `<div class="phrase-ctx">${p.context}</div>` : ''}
+    </div>
+  `).join('');
+  return card('phrases', '💬', 'Key Phrases', `${phrases.length} phrases`, `<div class="phrase-list">${items}</div>`);
+}
+
+function buildCulture(notes) {
+  const items = notes.map(n => `
+    <div class="cultural-item">
+      <div class="cultural-title">${n.title}</div>
+      <div class="cultural-body">${n.content}</div>
+    </div>
+  `).join('');
+  return card('culture', '📖', 'Cultural Notes', `${notes.length} note${notes.length !== 1 ? 's' : ''}`, items);
+}
+
+function buildPractice(exercises) {
+  const blocks = exercises.map((ex, ei) => {
+    const items = ex.items.map((item, ii) => {
+      const id = `ex-${ei}-${ii}`;
+      return `
+        <div class="exercise-item" id="${id}">
+          <div style="flex:1">
+            <div class="exercise-prompt">${item.prompt}</div>
+            <div class="answer-text" id="ans-${id}">${item.answer}</div>
+          </div>
+          <button class="show-answer-btn" onclick="toggleAnswer('${id}')">Show answer</button>
+        </div>
+      `;
+    }).join('');
+    return `
+      <div class="exercise-block">
+        <div class="exercise-type">${ex.type.replace(/_/g, ' ')}</div>
+        <div class="exercise-instruction">${ex.instruction}</div>
+        <div class="exercise-items">${items}</div>
+      </div>
+    `;
+  }).join('<hr style="border:none;border-top:1px solid var(--border);margin:20px 0">');
+  return card('practice', '🎯', 'Practice Exercises', `${exercises.length} exercise${exercises.length !== 1 ? 's' : ''}`, blocks);
+}
+
+function buildExtra(sec, id) {
+  const content = Array.isArray(sec.items)
+    ? `<ul style="padding-left:16px;line-height:2">${sec.items.map(i => `<li style="font-size:14px;color:var(--muted)">${i}</li>`).join('')}</ul>`
+    : `<div class="extra-body">${sec.content || ''}</div>`;
+  return card(id, sec.icon || '✨', sec.label || 'Extra Notes', '', content);
+}
+
+// ── Card Component ─────────────────────────────────────────────────────────
+function card(id, icon, title, count, body) {
+  return `
+    <div class="section-card" id="sec-${id}">
+      <div class="card-header" onclick="toggleCard('${id}')">
+        <div class="card-icon">${icon}</div>
+        <h2>${title}</h2>
+        ${count ? `<span class="card-count">${count}</span>` : ''}
+        <span class="collapse-arrow" id="arr-${id}">▲</span>
+      </div>
+      <div class="card-body" id="body-${id}">${body}</div>
+    </div>
+  `;
+}
+
+// ── Interactions ──────────────────────────────────────────────────────────────
+function toggleCard(id) {
+  const body = document.getElementById('body-' + id);
+  const arr = document.getElementById('arr-' + id);
+  const hidden = body.classList.toggle('hidden');
+  arr.textContent = hidden ? '▼' : '▲';
+}
+
+function toggleAnswer(id) {
+  const ans = document.getElementById('ans-' + id);
+  const btn = ans.closest('.exercise-item').querySelector('.show-answer-btn');
+  const showing = ans.style.display === 'block';
+  ans.style.display = showing ? 'none' : 'block';
+  btn.textContent = showing ? 'Show answer' : 'Hide answer';
+}
+
+function scrollToSection(id) {
+  const el = document.getElementById('sec-' + id);
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// ── Utils ─────────────────────────────────────────────────────────────────────
+function formatDate(str) {
+  if (!str) return '';
+  const d = new Date(str + 'T12:00:00');
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+
+// ── Go ────────────────────────────────────────────────────────────────────────
+init();
+</script>
+</body>
+</html>

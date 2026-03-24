@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "lesson_number": 1,
+    "title": "Introduction & Greetings",
+    "date": "2026-03-24",
+    "topic": "Basic greetings, introductions, and the verb être",
+    "duration_minutes": 60,
+    "difficulty": "beginner"
+  },
+  "vocabulary": [
+    { "french": "bonjour", "english": "hello / good morning", "notes": "Used until ~6pm" },
+    { "french": "bonsoir", "english": "good evening", "notes": "Used after ~6pm" },
+    { "french": "au revoir", "english": "goodbye", "notes": "" },
+    { "french": "s'il vous plaît", "english": "please (formal)", "notes": "s'il te plaît = informal" },
+    { "french": "merci", "english": "thank you", "notes": "" },
+    { "french": "excusez-moi", "english": "excuse me (formal)", "notes": "" },
+    { "french": "je m'appelle", "english": "my name is", "notes": "Literally: I call myself" },
+    { "french": "enchanté(e)", "english": "nice to meet you", "notes": "Add -e if you're female" }
+  ],
+  "verbs": [
+    {
+      "infinitive": "être",
+      "meaning": "to be",
+      "conjugations": {
+        "je": "suis",
+        "tu": "es",
+        "il/elle": "est",
+        "nous": "sommes",
+        "vous": "êtes",
+        "ils/elles": "sont"
+      },
+      "notes": "Irregular verb — must memorise. Most important verb in French.",
+      "examples": [
+        "Je suis étudiant. — I am a student.",
+        "Elle est professeur. — She is a teacher."
+      ]
+    },
+    {
+      "infinitive": "s'appeler",
+      "meaning": "to be called / to call oneself",
+      "conjugations": {
+        "je": "m'appelle",
+        "tu": "t'appelles",
+        "il/elle": "s'appelle",
+        "nous": "nous appelons",
+        "vous": "vous appelez",
+        "ils/elles": "s'appellent"
+      },
+      "notes": "Reflexive verb. Note double-L in je/tu/il/ils forms.",
+      "examples": [
+        "Je m'appelle Marie. — My name is Marie.",
+        "Comment vous appelez-vous? — What is your name? (formal)"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "title": "No subject omission",
+      "explanation": "Unlike Spanish/Italian, French always requires the subject pronoun. You cannot say just 'suis étudiant' — you must say 'je suis étudiant'."
+    },
+    {
+      "title": "Tu vs Vous",
+      "explanation": "Tu is singular informal (friends, family, children). Vous is singular formal (strangers, professionals) OR plural for any group. When in doubt, use vous."
+    },
+    {
+      "title": "Gender agreement",
+      "explanation": "Adjectives agree with the noun they describe. Enchanté (masculine) → enchantée (feminine). You will see this pattern everywhere."
+    }
+  ],
+  "key_phrases": [
+    { "french": "Comment vous appelez-vous ?", "english": "What is your name? (formal)", "context": "First meeting, professional" },
+    { "french": "Comment tu t'appelles ?", "english": "What is your name? (informal)", "context": "Peers, children" },
+    { "french": "Ça va ?", "english": "How are you? / How's it going?", "context": "Casual, with people you know" },
+    { "french": "Très bien, merci.", "english": "Very well, thank you.", "context": "Standard response" },
+    { "french": "Je ne comprends pas.", "english": "I don't understand.", "context": "Useful from day one!" },
+    { "french": "Pouvez-vous répéter ?", "english": "Can you repeat? (formal)", "context": "Asking teacher / native speakers" }
+  ],
+  "cultural_notes": [
+    {
+      "title": "La bise",
+      "content": "French greeting involves cheek kisses (la bise) — typically 2 in Paris, varies by region (1–4). Between men this is less common; a handshake is standard. Don't be surprised when it happens!"
+    },
+    {
+      "title": "Formality matters",
+      "content": "Starting with 'vous' is always safe. Switching to 'tu' is called 'tutoyer' and usually happens when the other person suggests it or in casual contexts. Never assume 'tu' with older adults or in professional settings."
+    }
+  ],
+  "practice_exercises": [
+    {
+      "type": "fill_in_the_blank",
+      "instruction": "Conjugate être correctly",
+      "items": [
+        { "prompt": "Je ___ américain.", "answer": "suis" },
+        { "prompt": "Vous ___ professeur ?", "answer": "êtes" },
+        { "prompt": "Ils ___ en France.", "answer": "sont" },
+        { "prompt": "Nous ___ étudiants.", "answer": "sommes" }
+      ]
+    },
+    {
+      "type": "translate",
+      "instruction": "Translate into French",
+      "items": [
+        { "prompt": "My name is Thomas.", "answer": "Je m'appelle Thomas." },
+        { "prompt": "Nice to meet you. (said by a woman)", "answer": "Enchantée." },
+        { "prompt": "I don't understand.", "answer": "Je ne comprends pas." }
+      ]
+    }
+  ],
+  "extra_sections": []
+}
