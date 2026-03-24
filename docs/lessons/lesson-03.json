@@ -1,0 +1,500 @@
+{
+  "meta": {
+    "lesson_number": 3,
+    "title": "Unité 2 — Habitat, Verbs & Prepositions with Countries",
+    "date": "2026-03-24",
+    "topic": "Housing vocabulary, prepositions with countries and contracted articles, new verbs (regarder, lire, dire, connaître, faire, aimer), object pronouns, and deeper grammar including gender/number agreement and il y a.",
+    "duration_minutes": 90,
+    "difficulty": "beginner"
+  },
+  "vocabulary": [
+    { "french": "un appartement", "english": "an apartment", "notes": "Masculine. 'J'habite dans un appartement.'" },
+    { "french": "une maison", "english": "a house", "notes": "Feminine. Most common word for home." },
+    { "french": "une villa", "english": "a villa", "notes": "Feminine. Usually a large detached house." },
+    { "french": "une péniche", "english": "a houseboat", "notes": "Feminine. Common on Parisian canals." },
+    { "french": "un loft", "english": "a loft", "notes": "Masculine. Same spelling as English." },
+    { "french": "un pavillon", "english": "a detached/suburban house", "notes": "Masculine. Typically found outside city centres." },
+    { "french": "une cabane", "english": "a hut / cabin", "notes": "Feminine." },
+    { "french": "un château", "english": "a castle", "notes": "Masculine. Plural: châteaux." },
+    { "french": "la cuisine", "english": "kitchen", "notes": "Feminine. Also means 'cooking'." },
+    { "french": "la chambre", "english": "bedroom", "notes": "Feminine." },
+    { "french": "le salon", "english": "living room", "notes": "Masculine. Also called 'la salle de séjour'." },
+    { "french": "la salle de bains", "english": "bathroom", "notes": "Feminine. Toilet is often in a separate room in France." },
+    { "french": "le garage", "english": "garage", "notes": "Masculine." },
+    { "french": "le balcon", "english": "balcony", "notes": "Masculine." },
+    { "french": "la terrasse", "english": "terrace", "notes": "Feminine." },
+    { "french": "le jardin", "english": "garden", "notes": "Masculine." },
+    { "french": "les toilettes", "english": "toilet / WC", "notes": "Always plural. 'Où sont les toilettes ?' = Where is the toilet?" },
+    { "french": "un lit", "english": "bed", "notes": "Masculine." },
+    { "french": "une table", "english": "table", "notes": "Feminine." },
+    { "french": "un four", "english": "oven", "notes": "Masculine." },
+    { "french": "un lave-linge", "english": "washing machine", "notes": "Masculine. Hyphenated." },
+    { "french": "un lave-vaisselle", "english": "dishwasher", "notes": "Masculine. Hyphenated." },
+    { "french": "un placard", "english": "cupboard / wardrobe", "notes": "Masculine. New in Day 3 slides." },
+    { "french": "un sac", "english": "a bag", "notes": "Masculine. 'Son sac' = his/her bag. From class chat." },
+    { "french": "il y a", "english": "there is / there are", "notes": "Invariable expression. 'Il y a un lit.' = There is a bed. 'Il y a des livres.' = There are some books." },
+    { "french": "toujours", "english": "always", "notes": "Adverb. 'Il y a toujours un stylo dans mon sac.' = There is always a pen in my bag." },
+    { "french": "aussi", "english": "also / too", "notes": "Adverb. Placed after the verb: 'Je parle aussi anglais.' = I also speak English." },
+    { "french": "puis", "english": "then / next", "notes": "Used to sequence actions: 'Je mange, puis je dors.' = I eat, then I sleep." },
+    { "french": "que / qu'", "english": "what / that / which", "notes": "Relative pronoun or question word. 'Qu'est-ce que' = what is. Before a vowel: qu'." },
+    { "french": "qu'est-ce que", "english": "what is / what does", "notes": "Common question structure. 'Qu'est-ce que c'est ?' = What is it? 'Qu'est-ce que tu fais ?' = What are you doing?" },
+    { "french": "des", "english": "some (plural) / of the", "notes": "Both an indefinite article (des livres = some books) and a contracted article (de + les = des). Context determines meaning." },
+    { "french": "pratique", "english": "practical / handy", "notes": "Same form for masculine and feminine adjective." },
+    { "french": "autre", "english": "other / another", "notes": "Adjective. 'un autre livre' = another book. Plural: d'autres." },
+    { "french": "célèbre", "english": "famous / celebrated", "notes": "Same form for masculine and feminine. 'Elle est très célèbre.' = She is very famous." },
+    { "french": "très", "english": "very", "notes": "Adverb. Always placed before the adjective it modifies." },
+    { "french": "et", "english": "and", "notes": "Conjunction. Never pronounced with a final t sound." },
+    { "french": "est", "english": "is (3rd person être)", "notes": "IMPORTANT: 'et' (and) vs 'est' (is) — same sound, different spelling. 'Il est grand et fort.' = He is tall and strong." },
+    { "french": "chanter", "english": "to sing", "notes": "Regular -ER verb. 'Il chante.' = He sings. From class chat (Mika reference)." },
+    { "french": "un chanteur / une chanteuse", "english": "a singer", "notes": "Masculine -eur → feminine -euse. Mika is 'un chanteur'." },
+    { "french": "anglais / anglaise", "english": "English (masc./fem.)", "notes": "From class chat. Masculine: anglais. Feminine: anglaise. Note: nationality adjectives are lowercase in French." },
+    { "french": "respecter l'espace", "english": "to respect personal space", "notes": "Colocation phrase." },
+    { "french": "payer les factures", "english": "to pay the bills", "notes": "Colocation phrase." },
+    { "french": "organiser le ménage", "english": "to organise the cleaning", "notes": "Colocation phrase." },
+    { "french": "vivre en colocation", "english": "to live in shared housing", "notes": "Colocation = flat/house share. Informal: 'la coloc'." },
+    { "french": "joli / jolie", "english": "pretty / nice", "notes": "Masculine: joli. Feminine: jolie. 'Un joli appartement.' = A nice apartment." },
+    { "french": "magnifique", "english": "magnificent / stunning", "notes": "Same form for masculine and feminine." },
+    { "french": "un couturier / une couturière", "english": "a fashion designer", "notes": "Irregular feminine: -ier → -ière." },
+    { "french": "un dessinateur / une dessinatrice", "english": "a designer / cartoonist", "notes": "Irregular feminine: -eur → -rice." },
+    { "french": "un musicien / une musicienne", "english": "a musician", "notes": "Feminine doubles the n: musicienne." },
+    { "french": "un astronaute / une astronaute", "english": "an astronaut", "notes": "Same form for masculine and feminine." },
+    { "french": "un joueur / une joueuse de tennis", "english": "a tennis player", "notes": "Feminine: -eur → -euse." }
+  ],
+  "verbs": [
+    {
+      "infinitive": "regarder",
+      "meaning": "to watch / to look at",
+      "conjugations": {
+        "je": "regarde",
+        "tu": "regardes",
+        "il/elle": "regarde",
+        "nous": "regardons",
+        "vous": "regardez",
+        "ils/elles": "regardent"
+      },
+      "notes": "Regular -ER verb. Common mistake spotted in class: 'regadrez' is WRONG — correct form is 'regardez'. The final -ent in ils/elles is always silent.",
+      "examples": [
+        "Je regarde la télévision. — I watch television.",
+        "Regardez ! — Look! (command, formal/plural)",
+        "Elle regarde par la fenêtre. — She looks out the window."
+      ]
+    },
+    {
+      "infinitive": "lire",
+      "meaning": "to read",
+      "conjugations": {
+        "je": "lis",
+        "tu": "lis",
+        "il/elle": "lit",
+        "nous": "lisons",
+        "vous": "lisez",
+        "ils/elles": "lisent"
+      },
+      "notes": "Irregular verb. Je and tu are identical (lis). Note the silent -t in il/elle lit.",
+      "examples": [
+        "Je lis un livre. — I am reading a book.",
+        "Tu lis le journal ? — Are you reading the newspaper?",
+        "Ils lisent beaucoup. — They read a lot."
+      ]
+    },
+    {
+      "infinitive": "dire",
+      "meaning": "to say / to tell",
+      "conjugations": {
+        "je": "dis",
+        "tu": "dis",
+        "il/elle": "dit",
+        "nous": "disons",
+        "vous": "dites",
+        "ils/elles": "disent"
+      },
+      "notes": "Irregular verb. KEY EXCEPTION: vous dites (NOT 'disez'). One of only 3 irregular vous forms: dire→dites, faire→faites, être→êtes.",
+      "examples": [
+        "Je dis la vérité. — I am telling the truth.",
+        "Comment dit-on 'hello' en français ? — How do you say 'hello' in French?",
+        "Qu'est-ce que tu dis ? — What are you saying?"
+      ]
+    },
+    {
+      "infinitive": "connaître",
+      "meaning": "to know (a person or place)",
+      "conjugations": {
+        "je": "connais",
+        "tu": "connais",
+        "il/elle": "connaît",
+        "nous": "connaissons",
+        "vous": "connaissez",
+        "ils/elles": "connaissent"
+      },
+      "notes": "Irregular. Note circumflex on connaît. CRITICAL distinction: connaître = to know a person/place (familiarity). savoir = to know a fact/how to do something. Direct object pronoun: 'Je les connais' (I know them) — pronoun goes BEFORE the verb.",
+      "examples": [
+        "Oui, je les connais. — Yes, I know them.",
+        "Non, je ne les connais pas. — No, I don't know them.",
+        "Vous connaissez Paris ? — Do you know Paris?"
+      ]
+    },
+    {
+      "infinitive": "faire",
+      "meaning": "to do / to make",
+      "conjugations": {
+        "je": "fais",
+        "tu": "fais",
+        "il/elle": "fait",
+        "nous": "faisons",
+        "vous": "faites",
+        "ils/elles": "font"
+      },
+      "notes": "Highly irregular. KEY EXCEPTION: vous faites (NOT 'faisez'). 'Qu'est-ce que tu fais ?' = What are you doing? Also used in weather: 'Il fait chaud' = It is hot.",
+      "examples": [
+        "Qu'est-ce que tu fais ? — What are you doing?",
+        "Je fais du sport. — I do sport.",
+        "Il fait beau aujourd'hui. — The weather is nice today."
+      ]
+    },
+    {
+      "infinitive": "aimer",
+      "meaning": "to like / to love",
+      "conjugations": {
+        "je": "aime",
+        "tu": "aimes",
+        "il/elle": "aime",
+        "nous": "aimons",
+        "vous": "aimez",
+        "ils/elles": "aiment"
+      },
+      "notes": "Regular -ER verb. Followed by infinitive: 'J'aime chanter.' = I like to sing. Followed by noun: 'J'aime la musique.' = I like music. Note: with infinitives, no article is used.",
+      "examples": [
+        "J'aime la musique et les jeux vidéo. — I like music and video games.",
+        "Elle aime chanter. — She likes to sing.",
+        "Vous aimez le français ? — Do you like French?"
+      ]
+    },
+    {
+      "infinitive": "fermer",
+      "meaning": "to close",
+      "conjugations": {
+        "je": "ferme",
+        "tu": "fermes",
+        "il/elle": "ferme",
+        "nous": "fermons",
+        "vous": "fermez",
+        "ils/elles": "ferment"
+      },
+      "notes": "Regular -ER verb.",
+      "examples": [
+        "Fermez la porte, s'il vous plaît. — Close the door, please.",
+        "Je ferme la fenêtre. — I close the window."
+      ]
+    },
+    {
+      "infinitive": "montrer",
+      "meaning": "to show",
+      "conjugations": {
+        "je": "montre",
+        "tu": "montres",
+        "il/elle": "montre",
+        "nous": "montrons",
+        "vous": "montrez",
+        "ils/elles": "montrent"
+      },
+      "notes": "Regular -ER verb. 'Montrez-moi.' = Show me.",
+      "examples": [
+        "Il me montre la photo. — He shows me the photo.",
+        "Montrez-moi votre passeport. — Show me your passport."
+      ]
+    },
+    {
+      "infinitive": "s'inquiéter",
+      "meaning": "to worry",
+      "conjugations": {
+        "je": "m'inquiète",
+        "tu": "t'inquiètes",
+        "il/elle": "s'inquiète",
+        "nous": "nous inquiétons",
+        "vous": "vous inquiétez",
+        "ils/elles": "s'inquiètent"
+      },
+      "notes": "Reflexive -ER verb with stem change: inquié- → inquiè- in je/tu/il/ils forms. 'Ne t'inquiète pas !' = Don't worry!",
+      "examples": [
+        "Ne t'inquiète pas ! — Don't worry!",
+        "Je m'inquiète pour toi. — I worry about you."
+      ]
+    },
+    {
+      "infinitive": "venir",
+      "meaning": "to come / to come from",
+      "conjugations": {
+        "je": "viens",
+        "tu": "viens",
+        "il/elle": "vient",
+        "nous": "venons",
+        "vous": "venez",
+        "ils/elles": "viennent"
+      },
+      "notes": "Irregular. 'Je viens de' + country = I come from. Use de + l' before vowel: 'Je viens de l'Inde.' Use du for masculine countries: 'Je viens du Japon.' Use de for countries without article (rare).",
+      "examples": [
+        "Je viens de l'Inde. — I come from India.",
+        "Je viens du Japon. — I come from Japan.",
+        "Je viens du Canada. — I come from Canada.",
+        "Je viens du Bénin. — I come from Benin."
+      ]
+    },
+    {
+      "infinitive": "aller",
+      "meaning": "to go",
+      "conjugations": {
+        "je": "vais",
+        "tu": "vas",
+        "il/elle": "va",
+        "nous": "allons",
+        "vous": "allez",
+        "ils/elles": "vont"
+      },
+      "notes": "Irregular. 'Je vais au Canada.' = I am going to Canada (au = à + le, masculine country). 'Je vais à Ludhiana.' = I am going to Ludhiana (city, no article). Also used for near future: 'Je vais manger.' = I am going to eat.",
+      "examples": [
+        "Je vais au Canada. — I am going to Canada.",
+        "Je vais à Ludhiana. — I am going to Ludhiana.",
+        "Elle est très célèbre. — She is very famous.",
+        "Je vais manger. — I am going to eat."
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Contracted articles (Articles contractés) — au, aux, du, des",
+      "explanation": "When the prepositions à or de combine with the definite articles le or les, they must contract. à + le = au (never 'à le'), à + les = aux (never 'à les'), de + le = du (never 'de le'), de + les = des (never 'de les'). There is NO contraction with la or l': à + la = à la, à + l' = à l', de + la = de la, de + l' = de l'. Examples: Je vais au Canada (à + le Canada). Je viens du Japon (de + le Japon). Je parle aux étudiants (à + les étudiants)."
+    },
+    {
+      "title": "Prepositions with countries — en / au / aux / à + de / du / de l'",
+      "explanation": "To say 'in/to' a country: en + feminine country (en France, en Inde, en Italie — most countries ending in -e are feminine). au + masculine country (au Japon, au Canada, au Maroc). aux + plural country (aux États-Unis). à + city (à Paris, à Delhi, à Ludhiana). EXCEPTIONS — masculine despite ending in -e: le Mexique, le Mozambique, le Zaïre, le Zimbabwe. To say 'from': je viens de + feminine/vowel (je viens de France, je viens de l'Inde). je viens du + masculine (je viens du Japon, je viens du Canada). Class drill result: 'Je viens de l'Inde' is correct — NOT 'je viens du Inde' (Inde is feminine)."
+    },
+    {
+      "title": "il y a — there is / there are",
+      "explanation": "'Il y a' is an invariable expression meaning 'there is' or 'there are' — it never changes form. il y a + singular: Il y a un livre. (There is a book.) il y a + plural: Il y a des livres. (There are some books.) Negative: Il n'y a pas de livre. (There is no book.) Note: after negation, des/un/une become 'de/d'': Il n'y a pas de livres. Questions: Est-ce qu'il y a un café ? (Is there a coffee shop?) / Il y a un café ? (informal)"
+    },
+    {
+      "title": "Gender and number agreement of adjectives",
+      "explanation": "Adjectives in French must agree with the noun they describe in gender (masculine/feminine) and number (singular/plural). Basic rules: add -e for feminine (joli → jolie, français → française), add -s for plural (joli → jolis), add -es for feminine plural (jolie → jolies). Some adjectives are invariable (same for m/f): magnifique, pratique, célèbre, calme. Some have irregular feminines: breton → bretonne (double consonant), italien → italienne (double n). Masculine adjectives ending in -e don't change in feminine: magnifique → magnifique."
+    },
+    {
+      "title": "Masculine vs feminine plurals — special cases",
+      "explanation": "Most nouns and adjectives add -s in the plural. Special cases: words ending in -eau, -eu, -au add -x instead of -s (un château → des châteaux, un bureau → des bureaux). Words already ending in -s, -x, or -z don't change (un bras → des bras). Irregular: un œil → des yeux (eyes). These rules apply to both nouns and adjectives."
+    },
+    {
+      "title": "Direct object pronouns — le, la, l', les",
+      "explanation": "Object pronouns replace a noun that is the direct object of the verb. They go BEFORE the conjugated verb. le = him/it (masculine singular), la = her/it (feminine singular), l' = him/her before a vowel or h, les = them (plural). Word order: Subject + [ne] + pronoun + verb + [pas]. Examples: Je connais Marie → Je la connais. Je connais les acteurs → Je les connais. Negative: Je ne les connais pas. CLASS DRILL — common errors: ✗ 'je ne pas les connais' ✗ 'je ne connais les pas' ✓ 'je ne les connais pas'."
+    },
+    {
+      "title": "et vs est — same sound, different meaning",
+      "explanation": "From class chat: 'et' (and) and 'est' (is, from être) are pronounced identically — both sound like 'ay'. They must never be confused in writing. 'et' is a conjunction linking two things: 'Il est grand et fort.' 'est' is the 3rd person singular of être: 'Il est chanteur.' Memory tip: 'et' ends in -t (never pronounced) and comes between two items. 'est' comes directly after a subject pronoun or noun and is followed by an adjective, noun, or adverb."
+    },
+    {
+      "title": "Asking questions with est-ce que",
+      "explanation": "'Est-ce que' (literally 'is it that') is the standard way to turn any statement into a yes/no question without changing word order. Statement: Tu parles français. Question: Est-ce que tu parles français ? Before a vowel: 'Est-ce qu'il parle français ?' No inversion needed — just add est-ce que at the start. 'Qu'est-ce que' = 'what' in questions: Qu'est-ce que c'est ? (What is it?), Qu'est-ce que tu fais ? (What are you doing?)."
+    },
+    {
+      "title": "comment s'appelle-t-il/elle — asking someone's name in 3rd person",
+      "explanation": "To ask about a third person's name: 'Comment s'appelle-t-il ?' (What is his name?) or 'Comment s'appelle-t-elle ?' (What is her name?). The -t- between s'appelle and il/elle is a purely phonetic liaison inserted to avoid two vowel sounds in a row — it has no grammatical meaning. Answer: 'Il s'appelle Mika.' / 'Elle s'appelle Kristin.' From class chat: 'comment s'appelle-t-elle ?' was used when discussing the actress."
+    },
+    {
+      "title": "Prepositions of place (Prépositions de lieu)",
+      "explanation": "sur (on), sous (under), dans (in/inside), devant (in front of), derrière (behind), entre (between), à côté de (next to), près de (near/nearby), à (at/to/in). New from Day 3: 'dans' vs 'en' — both can mean 'in' but 'dans' implies physically inside something (dans le sac = in the bag, dans l'appartement = in the apartment), while 'en' is used with countries and certain time expressions."
+    },
+    {
+      "title": "Possessive adjectives — special rule before vowels",
+      "explanation": "The possessive adjectives agree with the noun they describe, not the owner. mon/ma/mes (my), ton/ta/tes (your), son/sa/ses (his/her). IMPORTANT RULE: Before a feminine noun beginning with a vowel or silent h, use mon/ton/son instead of ma/ta/sa to avoid a vowel clash: mon amie (not 'ma amie'), ton adresse (not 'ta adresse'), son appartement (not 'sa appartement'). This applies to: adresse, amie, école, and any feminine noun starting with a vowel."
+    }
+  ],
+  "key_phrases": [
+    { "french": "Il y a un lit dans la chambre.", "english": "There is a bed in the bedroom.", "context": "Using il y a to describe a room" },
+    { "french": "Qu'est-ce qu'il y a dans ton sac ?", "english": "What is in your bag?", "context": "Asking about contents — combines qu'est-ce que + il y a" },
+    { "french": "J'associe le numéro 1 avec la fiche C.", "english": "I associate number 1 with card C.", "context": "Classroom matching exercise language" },
+    { "french": "Je viens de l'Inde.", "english": "I come from India.", "context": "Correct form — de + l' before vowel. NOT 'du Inde'." },
+    { "french": "Je viens du Japon.", "english": "I come from Japan.", "context": "du = de + le (masculine country)" },
+    { "french": "Je vais au Canada.", "english": "I am going to Canada.", "context": "au = à + le (masculine country). NOT 'je vais a Canada'." },
+    { "french": "Je vais à Ludhiana.", "english": "I am going to Ludhiana.", "context": "Cities take à — no article, no contraction needed." },
+    { "french": "Oui, je les connais.", "english": "Yes, I know them.", "context": "Object pronoun before verb — correct word order" },
+    { "french": "Non, je ne les connais pas.", "english": "No, I don't know them.", "context": "Negation with object pronoun: ne + les + verb + pas" },
+    { "french": "Comment s'appelle-t-elle ?", "english": "What is her name?", "context": "The -t- is a phonetic liaison, not a grammatical marker" },
+    { "french": "Elle est très célèbre.", "english": "She is very famous.", "context": "From class — describing a celebrity" },
+    { "french": "Et lui, c'est Mika.", "english": "And him, that's Mika.", "context": "Using tonic pronoun 'lui' for emphasis" },
+    { "french": "Qu'est-ce que c'est ?", "english": "What is it?", "context": "Most common 'what is' question" },
+    { "french": "Qu'est-ce que tu fais ?", "english": "What are you doing?", "context": "Using faire in a question" },
+    { "french": "Son sac est pratique.", "english": "His/her bag is practical.", "context": "Possessive + adjective agreement" },
+    { "french": "J'habite dans un petit appartement.", "english": "I live in a small apartment.", "context": "Describing your home" },
+    { "french": "Décrivez votre maison.", "english": "Describe your house.", "context": "Speaking task instruction from slides" },
+    { "french": "Il y a toujours un stylo dans mon sac.", "english": "There is always a pen in my bag.", "context": "Using il y a with toujours" }
+  ],
+  "cultural_notes": [
+    {
+      "title": "La France — Géographie",
+      "content": "France is the largest country in the European Union by area. It has 27 regions, 7 mountain ranges (massifs), 5 overseas territories (DOM-TOM: Guadeloupe, Martinique, Guyane, La Réunion, Mayotte), and 10 national parks. Its varied landscape — Alps, Pyrenees, Atlantic coast, Mediterranean coast — makes it one of the most geographically diverse countries in Europe."
+    },
+    {
+      "title": "Marseille — Capitale Culturelle 2013",
+      "content": "Marseille was the European Capital of Culture in 2013. Key landmarks: MuCEM (Musée des Civilisations de l'Europe et de la Méditerranée — Museum of Mediterranean Civilisations), Vieux-Port (Old Port, the heart of the city), Notre-Dame de la Garde (nicknamed 'La Bonne Mère', the protector of sailors), and the Château d'If (famous from Alexandre Dumas' The Count of Monte Cristo)."
+    },
+    {
+      "title": "Mika — French pop icon",
+      "content": "Mika (full name: Michael Holbrook Penniman Jr.) is a Lebanese-British singer who became hugely popular in France and throughout the French-speaking world. He is known for songs like 'Grace Kelly' and 'Relax (Take It Easy)'. He was a coach on the French TV show 'The Voice' for many years, which made him a household name in France. He is an example of a 'chanteur' — a male singer."
+    },
+    {
+      "title": "La colocation en France",
+      "content": "Flat/house sharing (la colocation, or 'la coloc' informally) is extremely common in France, especially in big cities like Paris where rents are very high. Key colocation vocabulary: respecter l'espace (respect personal space), payer les factures (pay bills), organiser le ménage (organise cleaning). The verb 'partager' (to share) is also very useful: 'Je partage un appartement.' = I share an apartment."
+    },
+    {
+      "title": "Kristin Scott Thomas — British actress in France",
+      "content": "Kristin Scott Thomas (born 1960) is a British actress famous for her work in both English and French cinema. She is equally fluent in both languages and has starred in iconic French films. She is a perfect example to illustrate: un acteur (male actor) / une actrice (female actress), the use of 'quel/quelle' (Quel est son prénom ?), and how to say a birth year (Elle est née en mille neuf cent soixante)."
+    }
+  ],
+  "practice_exercises": [
+    {
+      "type": "fill_in_the_blank",
+      "instruction": "Fill in the correct contracted article or preposition: au / aux / du / de la / de l' / en / à",
+      "items": [
+        { "prompt": "Je viens ___ Inde. (from India — feminine, starts with vowel)", "answer": "de l'" },
+        { "prompt": "Je vais ___ Canada. (to Canada — masculine country)", "answer": "au" },
+        { "prompt": "Elle vient ___ États-Unis. (from the USA — plural)", "answer": "des" },
+        { "prompt": "Il habite ___ Paris. (in Paris — city)", "answer": "à" },
+        { "prompt": "Je viens ___ France. (from France — feminine country)", "answer": "de" },
+        { "prompt": "Il vient ___ Japon. (from Japan — masculine country)", "answer": "du" }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "instruction": "Correct the word order — rewrite using the correct position of the object pronoun",
+      "items": [
+        { "prompt": "Non, je ne pas les connais. → ___", "answer": "Non, je ne les connais pas." },
+        { "prompt": "Non, je ne connais les pas. → ___", "answer": "Non, je ne les connais pas." },
+        { "prompt": "Oui, je connais les. → ___", "answer": "Oui, je les connais." },
+        { "prompt": "Non, je ne le connais pas. (him) → Is this correct?", "answer": "Yes — 'je ne le connais pas' is correct for a single masculine person/thing." }
+      ]
+    },
+    {
+      "type": "translate",
+      "instruction": "Translate into French",
+      "items": [
+        { "prompt": "There is a washing machine in the kitchen.", "answer": "Il y a un lave-linge dans la cuisine." },
+        { "prompt": "I am going to Canada.", "answer": "Je vais au Canada." },
+        { "prompt": "She comes from India.", "answer": "Elle vient de l'Inde." },
+        { "prompt": "What are you doing?", "answer": "Qu'est-ce que tu fais ?" },
+        { "prompt": "I don't know them.", "answer": "Je ne les connais pas." },
+        { "prompt": "She was born in 1960.", "answer": "Elle est née en mille neuf cent soixante." }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "instruction": "Choose et or est",
+      "items": [
+        { "prompt": "Il ___ chanteur ___ acteur.", "answer": "est … et" },
+        { "prompt": "Elle ___ très célèbre.", "answer": "est" },
+        { "prompt": "La maison ___ grande ___ belle.", "answer": "est … et" },
+        { "prompt": "Mika ___ un chanteur célèbre.", "answer": "est" }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the correct verb form",
+      "items": [
+        { "prompt": "Vous ___ la porte. (dire) — dis / dites / disez", "answer": "dites (irregular: vous dites, not disez)" },
+        { "prompt": "Vous ___ du sport. (faire) — faisez / faites / font", "answer": "faites (irregular: vous faites, not faisez)" },
+        { "prompt": "Ils ___ le journal. (lire) — lisent / lirent / lissent", "answer": "lisent" },
+        { "prompt": "Je ___ Paris très bien. (connaître) — connais / connaît / connaise", "answer": "connais" }
+      ]
+    }
+  ],
+  "extra_sections": [
+    {
+      "label": "🏠 Describing Your Home — Speaking Template",
+      "icon": "🏠",
+      "content": "Use this structure for the speaking task 'Décrivez votre maison':\n\nJ'habite dans [un appartement / une maison / un loft].\nIl y a [nombre] pièces.\nIl y a [une cuisine / un salon / une chambre / une salle de bains].\nDans ma chambre, il y a un lit et une table.\nJ'aime mon appartement parce qu'il est [pratique / joli / grand / confortable].\n\nExample: J'habite dans un appartement. Il y a trois pièces. Il y a une cuisine, un salon et une chambre. Dans mon salon, il y a une table et des chaises. J'aime mon appartement parce qu'il est pratique.",
+      "items": []
+    },
+    {
+      "label": "✍️ Class Correction Drill — Je viens de…",
+      "icon": "✍️",
+      "content": "The class worked through the correct form of 'Je viens de' with different countries.",
+      "items": [
+        "❌ Je viens du Inde — WRONG: Inde is feminine, no contraction needed",
+        "❌ je viens du inde — WRONG: same error + lowercase",
+        "✅ Je viens de l'Inde — CORRECT: de + l' before vowel",
+        "✅ Je viens du Bénin — CORRECT: Bénin is masculine → du",
+        "✅ Je viens du Canada — CORRECT: Canada is masculine → du",
+        "Rule: de + l' (vowel), de + la (feminine consonant), du (masculine), des (plural)",
+        "Most countries ending in -e are feminine: France, Inde, Italie, Chine, Espagne, Allemagne",
+        "Exceptions (masculine despite -e): Mexique, Mozambique, Zaïre, Zimbabwe"
+      ]
+    },
+    {
+      "label": "✍️ Class Correction Drill — Je vais au / à…",
+      "icon": "✍️",
+      "content": "The class also drilled going TO places.",
+      "items": [
+        "❌ Je vais du canada — WRONG: 'du' is for 'from', not 'to'",
+        "❌ Je Vais a Canada — WRONG: masculine country needs au, not bare à",
+        "✅ Je vais au Canada — CORRECT: à + le Canada = au",
+        "✅ je vais à Ludhiana — CORRECT: cities take à (no article)",
+        "Rule: going TO → au (masc.), en (fem.), aux (plural), à (city)",
+        "Rule: coming FROM → du (masc.), de/de la (fem.), des (plural), de (city)"
+      ]
+    },
+    {
+      "label": "📖 Textbook References",
+      "icon": "📖",
+      "content": "From the FULL_STUDENT_PPT slides — pages to work through:",
+      "items": [
+        "Page 25 — Read + answer questions Q6 & Q7",
+        "Page 29 — Read + answer Q1, Q2, Q3",
+        "Page 32 — Busuu reading exercise",
+        "Page 38 — Listening + reading questions",
+        "Page 39 — Listening-based questions",
+        "Page 49 — Reading at home if needed",
+        "Page 56 — Listening + reading answers (section 8b mentioned in class)"
+      ]
+    },
+    {
+      "label": "📝 Homework",
+      "icon": "📝",
+      "content": "",
+      "items": [
+        "Write 5 sentences describing your house using il y a",
+        "Write 5 sentences using possessive adjectives (mon/ma/mes, ton/ta/tes, son/sa/ses)",
+        "Write 3 sentences using ce/cette/cet/ces",
+        "Write 5 sentences using en/au/aux/à with different countries and cities",
+        "Re-read all textbook readings from today",
+        "Learn conjugations of lire, dire, connaître, faire by heart",
+        "Revise all vocabulary from Unités 1 & 2"
+      ]
+    },
+    {
+      "label": "🔑 Key Vocabulary — Dans le sac (In the bag)",
+      "icon": "🔑",
+      "content": "",
+      "items": [
+        "un passeport — a passport",
+        "un rouge à lèvres — a lipstick",
+        "une carte d'identité — an ID card",
+        "un portable — a mobile phone",
+        "un carnet / un cahier — a notebook",
+        "un stylo — a pen",
+        "une trousse — a pencil case / pouch",
+        "des clés — keys",
+        "des mouchoirs — tissues",
+        "un parapluie — an umbrella",
+        "Template sentence: J'ai ___ dans mon sac. = I have ___ in my bag."
+      ]
+    },
+    {
+      "label": "🌍 Countries — Feminine/Masculine Quick Reference",
+      "icon": "🌍",
+      "content": "",
+      "items": [
+        "FEMININE (en / de): la France, l'Inde, l'Italie, la Chine, l'Espagne, l'Allemagne, la Russie, l'Australie",
+        "MASCULINE (au / du): le Japon, le Canada, le Maroc, le Brésil, le Mexique, le Bénin",
+        "PLURAL (aux / des): les États-Unis, les Pays-Bas",
+        "EXCEPTIONS — end in -e but MASCULINE: le Mexique, le Mozambique, le Zaïre, le Zimbabwe",
+        "RULE: If a country starts with a vowel, use en (not au) even if masculine: en Iran, en Irak, en Ouganda"
+      ]
+    }
+  ]
+}
