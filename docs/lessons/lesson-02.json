@@ -1,0 +1,594 @@
+{
+  "meta": {
+    "lesson_number": 2,
+    "title": "A1 Foundations — Identity, Articles, Verbs & Housing",
+    "date": "2026-03-24",
+    "topic": "Complete A1 foundations covering the alphabet, numbers 0–100, articles, core verb conjugations, self-introduction, professions, housing vocabulary, nationalities, and grammar rules including negation, demonstrative and possessive adjectives.",
+    "duration_minutes": 90,
+    "difficulty": "beginner"
+  },
+  "vocabulary": [
+    { "french": "un appartement", "english": "an apartment", "notes": "Masculine noun. 'J'habite dans un appartement.'" },
+    { "french": "une maison", "english": "a house", "notes": "Feminine noun. Most common word for home." },
+    { "french": "une villa", "english": "a villa", "notes": "Feminine. Usually a large detached house." },
+    { "french": "un loft", "english": "a loft", "notes": "Masculine. Same spelling as English." },
+    { "french": "une cabane", "english": "a hut / cabin", "notes": "Feminine. Also used for a beach hut." },
+    { "french": "un château", "english": "a castle", "notes": "Masculine. Plural: châteaux." },
+    { "french": "une péniche", "english": "a houseboat", "notes": "Feminine. Common on Parisian canals." },
+    { "french": "un pavillon", "english": "a suburban house", "notes": "Masculine. Typically a detached house in the suburbs." },
+    { "french": "la cuisine", "english": "kitchen", "notes": "Feminine. Also means 'cooking' or 'cuisine'." },
+    { "french": "la chambre", "english": "bedroom", "notes": "Feminine. 'La chambre à coucher' is more formal." },
+    { "french": "le salon", "english": "living room", "notes": "Masculine. Sometimes called 'la salle de séjour'." },
+    { "french": "la salle de bains", "english": "bathroom", "notes": "Feminine. Literally 'room of baths'. Toilet may be separate." },
+    { "french": "les toilettes", "english": "toilet / WC", "notes": "Always plural in French. 'Où sont les toilettes ?' = Where is the toilet?" },
+    { "french": "le balcon", "english": "balcony", "notes": "Masculine." },
+    { "french": "la terrasse", "english": "terrace", "notes": "Feminine." },
+    { "french": "le jardin", "english": "garden", "notes": "Masculine." },
+    { "french": "un lit", "english": "bed", "notes": "Masculine." },
+    { "french": "une table", "english": "table", "notes": "Feminine." },
+    { "french": "un four", "english": "oven", "notes": "Masculine. 'Four à micro-ondes' = microwave oven." },
+    { "french": "un micro-ondes", "english": "microwave", "notes": "Masculine. Invariable (no plural change)." },
+    { "french": "un réfrigérateur", "english": "refrigerator", "notes": "Masculine. Informal: 'un frigo'." },
+    { "french": "un lave-linge", "english": "washing machine", "notes": "Masculine. Hyphenated compound noun." },
+    { "french": "un lave-vaisselle", "english": "dishwasher", "notes": "Masculine. Hyphenated compound noun." },
+    { "french": "rouge", "english": "red", "notes": "Invariable in colour usage (rouge, rouges — but no rouge/rouge masc/fem change)." },
+    { "french": "bleu / bleue", "english": "blue", "notes": "Agrees with gender: un ciel bleu / une robe bleue." },
+    { "french": "vert / verte", "english": "green", "notes": "Feminine adds -e." },
+    { "french": "jaune", "english": "yellow", "notes": "Invariable for gender." },
+    { "french": "noir / noire", "english": "black", "notes": "Feminine adds -e." },
+    { "french": "blanc / blanche", "english": "white", "notes": "Irregular feminine: blanc → blanche." },
+    { "french": "orange", "english": "orange", "notes": "Invariable — does not change for gender or number." },
+    { "french": "rose", "english": "pink", "notes": "Invariable for gender." },
+    { "french": "violet / violette", "english": "purple", "notes": "Feminine doubles the t: violette." },
+    { "french": "gris / grise", "english": "grey", "notes": "Feminine adds -e." },
+    { "french": "marron", "english": "brown", "notes": "Invariable — does not agree in gender or number." },
+    { "french": "heureux / heureuse", "english": "happy", "notes": "Masculine -eux changes to -euse in feminine." },
+    { "french": "triste", "english": "sad", "notes": "Same form for masculine and feminine." },
+    { "french": "fatigué(e)", "english": "tired", "notes": "Add -e for feminine: fatiguée." },
+    { "french": "stressé(e)", "english": "stressed", "notes": "Add -e for feminine: stressée." },
+    { "french": "fâché(e)", "english": "angry", "notes": "Add -e for feminine." },
+    { "french": "excité(e)", "english": "excited", "notes": "Add -e for feminine." },
+    { "french": "calme", "english": "calm", "notes": "Same form for masculine and feminine." },
+    { "french": "peur", "english": "scared / fear", "notes": "'J'ai peur' = I am scared. Literally 'I have fear'." },
+    { "french": "un professeur / une professeure", "english": "a teacher", "notes": "Both forms now accepted. 'Professeur' is traditionally masculine." },
+    { "french": "un médecin", "english": "a doctor", "notes": "Traditionally masculine — 'une médecin' is becoming accepted." },
+    { "french": "un avocat / une avocate", "english": "a lawyer", "notes": "Regular feminine formation." },
+    { "french": "un ingénieur / une ingénieure", "english": "an engineer", "notes": "Feminine form increasingly used." },
+    { "french": "une infirmière", "english": "a nurse", "notes": "Feminine. Masculine: un infirmier." },
+    { "french": "un pilote", "english": "a pilot", "notes": "Same form for masculine and feminine." },
+    { "french": "un policier / une policière", "english": "a police officer", "notes": "Regular feminine with -ère." },
+    { "french": "un pompier", "english": "a firefighter", "notes": "Masculine. Feminine: une pompière (modern usage)." },
+    { "french": "un vendeur / une vendeuse", "english": "a salesperson", "notes": "Irregular feminine: -eur → -euse." },
+    { "french": "un chauffeur", "english": "a driver", "notes": "Masculine. Also means 'chauffeur'." },
+    { "french": "un acteur / une actrice", "english": "an actor / actress", "notes": "Irregular feminine: -eur → -rice." },
+    { "french": "un photographe", "english": "a photographer", "notes": "Same form for masc/fem." },
+    { "french": "un étudiant / une étudiante", "english": "a student", "notes": "Regular feminine adds -e." },
+    { "french": "un passeport", "english": "a passport", "notes": "Masculine." },
+    { "french": "une carte d'identité", "english": "an ID card", "notes": "Feminine." },
+    { "french": "un portable", "english": "a phone / mobile", "notes": "Masculine. Also means 'laptop' in some contexts." },
+    { "french": "un carnet / un cahier", "english": "a notebook", "notes": "Un carnet = small notebook; un cahier = exercise book." },
+    { "french": "un stylo", "english": "a pen", "notes": "Masculine." },
+    { "french": "une trousse", "english": "a pencil case / pouch", "notes": "Feminine." },
+    { "french": "un agenda", "english": "a planner / diary", "notes": "Masculine. False friend — does NOT mean 'agenda' in the meeting sense." },
+    { "french": "une brosse à dents", "english": "a toothbrush", "notes": "Feminine. Literally 'brush for teeth'." },
+    { "french": "des clés", "english": "keys", "notes": "Always used in plural for a set of keys." },
+    { "french": "des mouchoirs", "english": "tissues", "notes": "Plural of 'un mouchoir'." },
+    { "french": "un ordinateur", "english": "a computer", "notes": "Masculine." },
+    { "french": "un parapluie", "english": "an umbrella", "notes": "Masculine." },
+    { "french": "un rouge à lèvres", "english": "a lipstick", "notes": "Masculine. Literally 'red for lips'." },
+    { "french": "le nom", "english": "the last name / surname", "notes": "Also 'le nom de famille'." },
+    { "french": "le prénom", "english": "the first name", "notes": "Masculine. Always your given name, not family name." },
+    { "french": "la nationalité", "english": "the nationality", "notes": "Feminine." },
+    { "french": "la date de naissance", "english": "the date of birth", "notes": "Feminine." },
+    { "french": "le lieu de naissance", "english": "the place of birth", "notes": "Masculine." },
+    { "french": "l'adresse", "english": "the address", "notes": "Feminine. Takes l' because it starts with a vowel." }
+  ],
+  "verbs": [
+    {
+      "infinitive": "être",
+      "meaning": "to be",
+      "conjugations": {
+        "je": "suis",
+        "tu": "es",
+        "il/elle": "est",
+        "nous": "sommes",
+        "vous": "êtes",
+        "ils/elles": "sont"
+      },
+      "notes": "Completely irregular — must memorise. The most important verb in French. Note the circumflex on êtes.",
+      "examples": [
+        "Je suis étudiant(e). — I am a student.",
+        "Elle est professeure. — She is a teacher.",
+        "Nous sommes en France. — We are in France."
+      ]
+    },
+    {
+      "infinitive": "avoir",
+      "meaning": "to have",
+      "conjugations": {
+        "je": "ai",
+        "tu": "as",
+        "il/elle": "a",
+        "nous": "avons",
+        "vous": "avez",
+        "ils/elles": "ont"
+      },
+      "notes": "Irregular. Also used for age: 'J'ai 25 ans' = I am 25 years old (literally 'I have 25 years'). Note je → j'ai (elision).",
+      "examples": [
+        "J'ai 25 ans. — I am 25 years old.",
+        "Tu as un stylo ? — Do you have a pen?",
+        "Ils ont une maison. — They have a house."
+      ]
+    },
+    {
+      "infinitive": "aller",
+      "meaning": "to go",
+      "conjugations": {
+        "je": "vais",
+        "tu": "vas",
+        "il/elle": "va",
+        "nous": "allons",
+        "vous": "allez",
+        "ils/elles": "vont"
+      },
+      "notes": "Irregular. Also used to form the near future: 'Je vais manger' = I am going to eat.",
+      "examples": [
+        "Je vais à Paris. — I am going to Paris.",
+        "Comment allez-vous ? — How are you? (formal)",
+        "Je vais manger. — I am going to eat."
+      ]
+    },
+    {
+      "infinitive": "venir",
+      "meaning": "to come",
+      "conjugations": {
+        "je": "viens",
+        "tu": "viens",
+        "il/elle": "vient",
+        "nous": "venons",
+        "vous": "venez",
+        "ils/elles": "viennent"
+      },
+      "notes": "Irregular. Note the double-n in ils/elles viennent. 'Je viens de…' = I come from…",
+      "examples": [
+        "Je viens de l'Inde. — I come from India.",
+        "Tu viens avec moi ? — Are you coming with me?",
+        "Ils viennent demain. — They are coming tomorrow."
+      ]
+    },
+    {
+      "infinitive": "s'appeler",
+      "meaning": "to be called / to call oneself",
+      "conjugations": {
+        "je": "m'appelle",
+        "tu": "t'appelles",
+        "il/elle": "s'appelle",
+        "nous": "nous appelons",
+        "vous": "vous appelez",
+        "ils/elles": "s'appellent"
+      },
+      "notes": "Reflexive (pronominal) verb. Note double-L in je/tu/il/ils forms but single-L in nous/vous. Always used for giving names.",
+      "examples": [
+        "Je m'appelle Marie. — My name is Marie.",
+        "Comment tu t'appelles ? — What is your name? (informal)",
+        "Il s'appelle Thomas. — His name is Thomas."
+      ]
+    },
+    {
+      "infinitive": "habiter",
+      "meaning": "to live (somewhere)",
+      "conjugations": {
+        "je": "habite",
+        "tu": "habites",
+        "il/elle": "habite",
+        "nous": "habitons",
+        "vous": "habitez",
+        "ils/elles": "habitent"
+      },
+      "notes": "Regular -ER verb. Used with 'à' for cities and 'en/au/aux' for countries.",
+      "examples": [
+        "J'habite à Delhi. — I live in Delhi.",
+        "Elle habite en France. — She lives in France.",
+        "Il n'habite pas ici. — He does not live here."
+      ]
+    },
+    {
+      "infinitive": "parler",
+      "meaning": "to speak / to talk",
+      "conjugations": {
+        "je": "parle",
+        "tu": "parles",
+        "il/elle": "parle",
+        "nous": "parlons",
+        "vous": "parlez",
+        "ils/elles": "parlent"
+      },
+      "notes": "Model regular -ER verb. The -ER pattern applies to hundreds of verbs. Endings: -e, -es, -e, -ons, -ez, -ent.",
+      "examples": [
+        "Je parle français. — I speak French.",
+        "Je ne parle pas français. — I do not speak French.",
+        "Vous parlez anglais ? — Do you speak English?"
+      ]
+    },
+    {
+      "infinitive": "apprendre",
+      "meaning": "to learn",
+      "conjugations": {
+        "je": "apprends",
+        "tu": "apprends",
+        "il/elle": "apprend",
+        "nous": "apprenons",
+        "vous": "apprenez",
+        "ils/elles": "apprennent"
+      },
+      "notes": "Irregular -RE verb (like prendre). Note double-n in ils/elles. Je/tu/il forms end in -ds, -ds, -d (no final s for il).",
+      "examples": [
+        "J'apprends le français. — I am learning French.",
+        "Elle apprend vite. — She learns quickly.",
+        "Nous apprenons ensemble. — We are learning together."
+      ]
+    },
+    {
+      "infinitive": "devoir",
+      "meaning": "must / to have to",
+      "conjugations": {
+        "je": "dois",
+        "tu": "dois",
+        "il/elle": "doit",
+        "nous": "devons",
+        "vous": "devez",
+        "ils/elles": "doivent"
+      },
+      "notes": "Modal verb — followed by infinitive. 'Je dois partir' = I must leave. Irregular.",
+      "examples": [
+        "Je dois étudier. — I must study.",
+        "Tu dois parler français. — You must speak French.",
+        "Ils doivent respecter l'espace. — They must respect personal space."
+      ]
+    },
+    {
+      "infinitive": "ouvrir",
+      "meaning": "to open",
+      "conjugations": {
+        "je": "ouvre",
+        "tu": "ouvres",
+        "il/elle": "ouvre",
+        "nous": "ouvrons",
+        "vous": "ouvrez",
+        "ils/elles": "ouvrent"
+      },
+      "notes": "Irregular -IR verb that conjugates like an -ER verb in the present tense.",
+      "examples": [
+        "J'ouvre la porte. — I open the door.",
+        "Ouvrez le livre ! — Open the book!"
+      ]
+    },
+    {
+      "infinitive": "finir",
+      "meaning": "to finish",
+      "conjugations": {
+        "je": "finis",
+        "tu": "finis",
+        "il/elle": "finit",
+        "nous": "finissons",
+        "vous": "finissez",
+        "ils/elles": "finissent"
+      },
+      "notes": "Model regular -IR verb. Remove -IR, then add: -is, -is, -it, -issons, -issez, -issent.",
+      "examples": [
+        "Je finis à 18h. — I finish at 6pm.",
+        "Nous finissons le travail. — We finish the work."
+      ]
+    },
+    {
+      "infinitive": "attendre",
+      "meaning": "to wait",
+      "conjugations": {
+        "je": "attends",
+        "tu": "attends",
+        "il/elle": "attend",
+        "nous": "attendons",
+        "vous": "attendez",
+        "ils/elles": "attendent"
+      },
+      "notes": "Model regular -RE verb. Remove -RE, then add: -s, -s, nothing, -ons, -ez, -ent.",
+      "examples": [
+        "J'attends le bus. — I am waiting for the bus.",
+        "Nous attendons ici. — We are waiting here."
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Definite articles (Les articles définis) — le, la, l', les",
+      "explanation": "Use definite articles ('the') when referring to something specific. le = masculine singular (le livre), la = feminine singular (la table), l' = before vowel or silent h (l'école, l'hôtel), les = all plurals (les enfants). Articles contract: à + le = au, de + le = du, à + les = aux, de + les = des."
+    },
+    {
+      "title": "Indefinite articles (Les articles indéfinis) — un, une, des",
+      "explanation": "Use indefinite articles for 'a/an/some'. un = masculine (un stylo), une = feminine (une chaise), des = plural (des pommes). After negation, des becomes de/d': Je n'ai pas de stylo."
+    },
+    {
+      "title": "Negation — ne … pas",
+      "explanation": "To make a sentence negative, wrap the verb with ne … pas. Je parle français → Je ne parle pas français. Before a vowel, ne contracts to n': Je n'habite pas à Paris. The verb always sits between ne and pas. In informal speech, 'ne' is often dropped: 'Je parle pas' (colloquial only)."
+    },
+    {
+      "title": "Subject pronouns (Pronoms sujets)",
+      "explanation": "French always requires the subject pronoun — you cannot drop it. je (I), tu (you, informal singular), il/elle (he/she/it), nous (we), vous (you, formal or plural), ils/elles (they, masc/fem). 'On' informally replaces 'nous' in speech: 'On va' = We're going."
+    },
+    {
+      "title": "Stress / tonic pronouns (Pronoms toniques)",
+      "explanation": "Used for emphasis, after prepositions, or after 'et'. moi (me), toi (you), lui (him), elle (her), nous (us), vous (you), eux (them, masc), elles (them, fem). Examples: C'est pour moi. Toi et moi. C'est lui."
+    },
+    {
+      "title": "Demonstrative adjectives (Adjectifs démonstratifs) — ce, cet, cette, ces",
+      "explanation": "Use to point to something specific ('this/that'). ce = masculine singular before consonant (ce livre), cet = masculine singular before vowel/silent h (cet ami, cet hôtel), cette = feminine singular (cette table), ces = all plurals (ces enfants). Note: French doesn't distinguish 'this' vs 'that' without adding '-ci' (here) or '-là' (there): ce livre-ci (this book), ce livre-là (that book)."
+    },
+    {
+      "title": "Possessive adjectives (Adjectifs possessifs)",
+      "explanation": "Agree with the noun they describe, not the owner. mon/ma/mes (my), ton/ta/tes (your, informal), son/sa/ses (his/her/its), notre/nos (our), votre/vos (your, formal/plural), leur/leurs (their). Important: son/sa/ses can mean both his AND her — context decides. Before feminine nouns starting with a vowel: use mon/ton/son, not ma/ta/sa (mon amie, not ma amie)."
+    },
+    {
+      "title": "Prepositions with countries and cities",
+      "explanation": "à + city: à Paris, à Delhi, à Lyon. en + feminine country (or starting with vowel): en France, en Inde, en Italie. au + masculine country: au Japon, au Canada. aux + plural country: aux États-Unis. Note: most countries ending in -e are feminine (except le Mexique, le Cambodge)."
+    },
+    {
+      "title": "Prepositions of place (Prépositions de lieu)",
+      "explanation": "sur (on), sous (under), dans (in/inside), devant (in front of), derrière (behind), entre (between), à côté de (next to). Example: Le livre est sur la table. Le chat est sous la chaise."
+    },
+    {
+      "title": "Regular -ER verb pattern",
+      "explanation": "The largest verb group. Remove -ER from infinitive, then add: -e (je), -es (tu), -e (il/elle), -ons (nous), -ez (vous), -ent (ils/elles). Example: parler → je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent. The je/il/elle forms sound identical."
+    },
+    {
+      "title": "Regular -IR verb pattern",
+      "explanation": "Remove -IR, add: -is (je), -is (tu), -it (il/elle), -issons (nous), -issez (vous), -issent (ils/elles). Example: finir → je finis, tu finis, il finit, nous finissons, vous finissez, ils finissent. Note the -iss- inserted in nous/vous/ils forms."
+    },
+    {
+      "title": "Regular -RE verb pattern",
+      "explanation": "Remove -RE, add: -s (je), -s (tu), nothing (il/elle), -ons (nous), -ez (vous), -ent (ils/elles). Example: attendre → j'attends, tu attends, il attend, nous attendons, vous attendez, ils attendent. Note: il/elle gets NO ending — just the stem."
+    },
+    {
+      "title": "Near future with aller + infinitive",
+      "explanation": "To talk about what you are going to do, use the conjugated form of aller + infinitive. Je vais manger (I am going to eat), Tu vas partir (You are going to leave), Nous allons apprendre (We are going to learn). This is the most common way to express the future in spoken French."
+    },
+    {
+      "title": "Gender and nationality adjectives",
+      "explanation": "Nationality adjectives agree in gender and number with the person described. Masculine: français, indien, chinois, japonais, espagnol, canadien, allemand, marocain, américain. Feminine: française, indienne, chinoise, japonaise, espagnole, canadienne, allemande, marocaine, américaine. Note: nationality adjectives are lowercase in French (unlike English)."
+    },
+    {
+      "title": "Tu vs Vous",
+      "explanation": "Tu = singular informal (friends, family, children, peers). Vous = singular formal (strangers, elders, professionals) OR any group (2+ people). Always start with 'vous' with someone you've just met professionally. Switching from vous to tu is called 'tutoyer' and is usually suggested by the other person."
+    }
+  ],
+  "key_phrases": [
+    { "french": "Je m'appelle…", "english": "My name is…", "context": "Introducing yourself — always the first phrase to know" },
+    { "french": "J'ai … ans.", "english": "I am … years old.", "context": "Stating your age — use avoir, not être" },
+    { "french": "J'habite à…", "english": "I live in…", "context": "Stating your city" },
+    { "french": "Je viens de…", "english": "I come from…", "context": "Stating your country of origin" },
+    { "french": "Je suis…", "english": "I am… (profession)", "context": "Stating your profession — no article needed: 'Je suis médecin'" },
+    { "french": "Je parle…", "english": "I speak…", "context": "Stating languages you speak" },
+    { "french": "Je vous présente…", "english": "I would like to introduce… / Let me introduce…", "context": "Formal introduction of someone else" },
+    { "french": "Voici…", "english": "Here is…", "context": "Informal way to introduce or present someone/something" },
+    { "french": "Qui est-ce ?", "english": "Who is it?", "context": "Asking about a person's identity" },
+    { "french": "C'est mon ami / mon amie.", "english": "This is my friend.", "context": "Introducing a friend" },
+    { "french": "Comment ça va ?", "english": "How are you?", "context": "Casual greeting with someone you know" },
+    { "french": "Comment allez-vous ?", "english": "How are you? (formal)", "context": "Formal/professional settings" },
+    { "french": "Ça va bien, merci.", "english": "I'm fine, thank you.", "context": "Standard positive response" },
+    { "french": "Comme ci, comme ça.", "english": "So-so.", "context": "When you're not doing great but not bad either" },
+    { "french": "Excusez-moi, où est… ?", "english": "Excuse me, where is…?", "context": "Asking for directions" },
+    { "french": "Combien ça coûte ?", "english": "How much does it cost?", "context": "Shopping / asking prices" },
+    { "french": "Je voudrais…", "english": "I would like…", "context": "Polite request — more polite than 'Je veux' (I want)" },
+    { "french": "Je ne comprends pas.", "english": "I don't understand.", "context": "Essential phrase for beginners — use it freely!" },
+    { "french": "Pouvez-vous répéter ?", "english": "Could you repeat? (formal)", "context": "Asking someone to say something again" },
+    { "french": "Quelle est ta nationalité ?", "english": "What is your nationality?", "context": "Informal — use 'votre' for formal" },
+    { "french": "Où habites-tu ?", "english": "Where do you live?", "context": "Informal. Formal: Où habitez-vous ?" },
+    { "french": "Tu as quel âge ?", "english": "How old are you?", "context": "Informal. Formal: Quel âge avez-vous ?" },
+    { "french": "À bientôt !", "english": "See you soon!", "context": "Casual goodbye" },
+    { "french": "À demain !", "english": "See you tomorrow!", "context": "Leaving at end of day" },
+    { "french": "Bonne journée !", "english": "Have a good day!", "context": "Said when parting during the day" },
+    { "french": "J'ai un passeport dans mon sac.", "english": "I have a passport in my bag.", "context": "Model sentence using avoir + preposition + possessive" }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Les symboles de la France",
+      "content": "The French flag is Bleu, Blanc, Rouge (in that order — not Bleu, Rouge, Blanc, which is a common mistake). The national motto is Liberté, Égalité, Fraternité. The national anthem is La Marseillaise (originally a war song from Marseille). Bastille Day (La Fête nationale) is celebrated on July 14th, commemorating the storming of the Bastille in 1789."
+    },
+    {
+      "title": "La France en bref — Key facts",
+      "content": "Population: approximately 66.4 million. Currency: the Euro (€). France has 27 regions, 7 mountain ranges (massifs), 5 overseas territories (DOM-TOM), and 10 national parks. Fun fact: 320 baguettes are sold every second in France — bread is central to daily life and culture."
+    },
+    {
+      "title": "Marseille — Second city highlights",
+      "content": "Marseille is France's oldest city and second largest. Key landmarks: MuCEM (Museum of European and Mediterranean Civilisations), Vieux-Port (Old Port), Notre-Dame de la Garde (nicknamed 'La Bonne Mère' — the Good Mother), and the historic Château d'If (made famous by Alexandre Dumas' The Count of Monte Cristo)."
+    },
+    {
+      "title": "Personnalités françaises célèbres",
+      "content": "Historical figures: Napoléon Bonaparte (Emperor), Louis XIV (Le Roi Soleil — The Sun King), Victor Hugo (writer of Les Misérables and Notre-Dame de Paris). Modern figures: Daft Punk (iconic French electronic music duo), Christine Lagarde (former head of the IMF, now head of the European Central Bank)."
+    },
+    {
+      "title": "La politesse — The importance of politeness",
+      "content": "French culture places enormous value on politeness. The 'magic words': s'il vous plaît (please, formal), je voudrais (I would like — always more polite than je veux), pardon / excusez-moi (excuse me), enchanté(e) (nice to meet you). In France, always greet shopkeepers with 'Bonjour' when you enter and 'Au revoir' when you leave — this is considered basic courtesy and not doing so can be seen as rude."
+    },
+    {
+      "title": "Les numéros de téléphone français",
+      "content": "French phone numbers have 10 digits and are always spoken in pairs: 01 41 12 01 13 is said 'zéro un, quarante et un, douze, zéro un, treize'. Mobile numbers start with 06 or 07. This is why learning numbers in pairs is more useful than individually."
+    },
+    {
+      "title": "Expression idiomatique — Ce n'est pas ma tasse de thé",
+      "content": "'Ce n'est pas ma tasse de thé' literally means 'It's not my cup of tea' — borrowed from English! It means 'I don't like it / it's not my thing'. Another idiom from the slides: 'Ce n'est pas la mer à boire' (It's not the sea to drink) = It's not that difficult / It's not such a big deal."
+    }
+  ],
+  "practice_exercises": [
+    {
+      "type": "fill_in_the_blank",
+      "instruction": "Fill in the correct form of être, avoir, or aller",
+      "items": [
+        { "prompt": "Je ___ étudiant. (être)", "answer": "suis" },
+        { "prompt": "Tu ___ quel âge ? (avoir)", "answer": "as" },
+        { "prompt": "Elle ___ à Paris demain. (aller)", "answer": "va" },
+        { "prompt": "Nous ___ français. (être)", "answer": "sommes" },
+        { "prompt": "Ils ___ un appartement. (avoir)", "answer": "ont" },
+        { "prompt": "Vous ___ au Canada ? (aller)", "answer": "allez" }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "instruction": "Choose the correct article: le / la / l' / les / un / une / des",
+      "items": [
+        { "prompt": "___ livre est sur la table. (specific book)", "answer": "Le" },
+        { "prompt": "J'ai ___ stylo dans mon sac. (a pen)", "answer": "un" },
+        { "prompt": "Elle habite dans ___ appartement. (an apartment)", "answer": "un" },
+        { "prompt": "___ enfants jouent dehors. (the children)", "answer": "Les" },
+        { "prompt": "Il y a ___ pommes sur la table. (some apples)", "answer": "des" },
+        { "prompt": "J'apprends ___ français. (the language, general)", "answer": "le" }
+      ]
+    },
+    {
+      "type": "translate",
+      "instruction": "Translate these sentences into French",
+      "items": [
+        { "prompt": "My name is Priya and I am 28 years old.", "answer": "Je m'appelle Priya et j'ai 28 ans." },
+        { "prompt": "I live in Delhi, India.", "answer": "J'habite à Delhi, en Inde." },
+        { "prompt": "I am a teacher. I speak French and English.", "answer": "Je suis professeur(e). Je parle français et anglais." },
+        { "prompt": "I do not speak Spanish.", "answer": "Je ne parle pas espagnol." },
+        { "prompt": "This is my colleague. Her name is Marie.", "answer": "C'est ma collègue. Elle s'appelle Marie." }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "instruction": "Fill in the correct demonstrative adjective: ce / cet / cette / ces",
+      "items": [
+        { "prompt": "___ livre est intéressant. (this book — masc.)", "answer": "Ce" },
+        { "prompt": "___ appartement est grand. (this apartment — masc. vowel)", "answer": "Cet" },
+        { "prompt": "___ maison est belle. (this house — fem.)", "answer": "Cette" },
+        { "prompt": "___ étudiants parlent français. (these students — plural)", "answer": "Ces" }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the correct preposition for countries and cities",
+      "items": [
+        { "prompt": "J'habite ___ France. (en / au / à)", "answer": "en (France is feminine)" },
+        { "prompt": "Il est ___ Japon. (en / au / à)", "answer": "au (Japon is masculine)" },
+        { "prompt": "Elle vit ___ Delhi. (en / au / à)", "answer": "à (Delhi is a city)" },
+        { "prompt": "Ils sont ___ États-Unis. (en / aux / à)", "answer": "aux (plural country)" }
+      ]
+    }
+  ],
+  "extra_sections": [
+    {
+      "label": "🔤 Alphabet & Pronunciation",
+      "icon": "🔤",
+      "content": "",
+      "items": [
+        "A (ah), B (bay), C (say), D (day), E (uh), F (eff), G (zhay), H (ash), I (ee), J (zhee), K (kah), L (ell)",
+        "M (emm), N (enn), O (oh), P (pay), Q (koo), R (air — throaty French R), S (ess), T (tay), U (eu — tight lips), V (vay), W (doo-bluh-vay), X (eeks), Y (ee-grek), Z (zed)",
+        "é ≈ 'ay' sound (café, été)",
+        "è / ê ≈ 'eh' sound (père, très, fête)",
+        "ç = 's' sound (garçon). Used before a, o, u to make a soft 's'",
+        "Hard vowels: a, o, u — Soft vowels: e, i",
+        "Vowels in French (elision triggers): A, E, I, O, U, silent H, Y"
+      ]
+    },
+    {
+      "label": "🔢 Numbers 0–100",
+      "icon": "🔢",
+      "content": "",
+      "items": [
+        "0–10: zéro, un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix",
+        "11–20: onze, douze, treize, quatorze, quinze, seize, dix-sept, dix-huit, dix-neuf, vingt",
+        "21–29: vingt et un, vingt-deux, vingt-trois… vingt-neuf",
+        "30–39: trente, trente et un, trente-deux… trente-neuf",
+        "40–49: quarante, quarante et un… quarante-neuf",
+        "50–59: cinquante, cinquante et un… cinquante-neuf",
+        "60–79: soixante (60), soixante et un (61), soixante-dix (70), soixante-onze (71)… soixante-dix-neuf (79)",
+        "80–89: quatre-vingts (80), quatre-vingt-un (81)… quatre-vingt-neuf (89) — NOTE: no 'et' after quatre-vingts",
+        "90–99: quatre-vingt-dix (90), quatre-vingt-onze (91)… quatre-vingt-dix-neuf (99)",
+        "100: cent",
+        "TIP: Phone numbers are spoken in pairs — 01 41 12 01 13 → zéro un, quarante et un, douze, zéro un, treize"
+      ]
+    },
+    {
+      "label": "📅 Days & Months",
+      "icon": "📅",
+      "content": "",
+      "items": [
+        "Days (lowercase in French): lundi (Monday), mardi (Tuesday), mercredi (Wednesday), jeudi (Thursday), vendredi (Friday), samedi (Saturday), dimanche (Sunday)",
+        "Months (lowercase in French): janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre",
+        "TIP: Days and months are NOT capitalised in French — unlike English"
+      ]
+    },
+    {
+      "label": "🌍 Countries & Nationalities",
+      "icon": "🌍",
+      "content": "",
+      "items": [
+        "la France → français / française",
+        "l'Inde → indien / indienne",
+        "la Chine → chinois / chinoise",
+        "le Japon → japonais / japonaise",
+        "l'Italie → italien / italienne",
+        "l'Espagne → espagnol / espagnole",
+        "le Canada → canadien / canadienne",
+        "l'Allemagne → allemand / allemande",
+        "le Maroc → marocain / marocaine",
+        "les États-Unis → américain / américaine",
+        "TIP: Nationality adjectives are LOWERCASE in French (unlike English)"
+      ]
+    },
+    {
+      "label": "🌍 Continents",
+      "icon": "🌍",
+      "content": "",
+      "items": [
+        "l'Europe (f) — J'habite en Europe.",
+        "l'Asie (f) — J'habite en Asie.",
+        "l'Afrique (f) — J'habite en Afrique.",
+        "l'Amérique (f) — J'habite en Amérique.",
+        "l'Océanie (f) — J'habite en Océanie.",
+        "l'Antarctique (m) — Rare usage in conversation"
+      ]
+    },
+    {
+      "label": "💬 Languages",
+      "icon": "💬",
+      "content": "",
+      "items": [
+        "le français (French), l'anglais (English), l'espagnol (Spanish), l'arabe (Arabic)",
+        "l'allemand (German), l'italien (Italian), le chinois (Chinese)",
+        "le japonais (Japanese), le russe (Russian)",
+        "TIP: Languages are lowercase in French. Je parle français. (not 'Français')"
+      ]
+    },
+    {
+      "label": "🏠 Housing & Colocation Phrases",
+      "icon": "🏠",
+      "content": "",
+      "items": [
+        "respecter l'espace — to respect personal space",
+        "payer les factures — to pay the bills",
+        "organiser le ménage — to organise the cleaning",
+        "vivre en colocation — to live in shared housing (coloc)",
+        "J'habite dans un petit appartement. — I live in a small apartment.",
+        "J'aime la musique et les jeux vidéo. — I like music and video games."
+      ]
+    },
+    {
+      "label": "📝 Sample Self-Introduction (Template)",
+      "icon": "📝",
+      "content": "Use this template to write your own introduction:\n\nJe m'appelle [Name]. J'ai [age] ans. Je suis [profession]. J'habite à [city], en/au [country]. Je parle [language(s)]. J'apprends le français.\n\nExample: Je m'appelle Sophie. J'ai 30 ans. Je suis professeure. J'habite à Lyon, en France. Je parle français et anglais. J'apprends l'espagnol.",
+      "items": []
+    },
+    {
+      "label": "📋 Phonetics Worksheets",
+      "icon": "📋",
+      "content": "",
+      "items": [
+        "Worksheet A — Sort by sound (é / è / oi / ou): moi, été, père, oiseau, cou, très, joué, froid, soupe, café",
+        "Worksheet A Answers: é sounds → été, joué, café | è sounds → père, très | oi sounds → moi, oiseau, froid | ou sounds → cou, soupe",
+        "Worksheet B — Fill in the accent: caf_é → café | fr_oi_d → froid | s_ou_pe → soupe | m_oi → moi | ch_au_d → chaud | s_oi_r → soir | b_ê_te → bête",
+        "Worksheet C — Match word to pronunciation: maison → meh-zon | garçon → gar-son | café → ca-fay | oiseau → wah-zo"
+      ]
+    }
+  ]
+}
