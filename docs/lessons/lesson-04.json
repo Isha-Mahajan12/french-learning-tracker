@@ -1,0 +1,702 @@
+{
+  "meta": {
+    "lesson_number": 4,
+    "title": "Saison 1 — Unités 0 & 1 : Mes cinq sens en action / S'ouvrir aux autres",
+    "date": "2026-03-25",
+    "topic": "Comprehensive A1 foundations from the Saison 1 textbook: greetings, alphabet, nationalities, colours, numbers 0–1000, emotions, days/months, francophone personalities, housing, rental vocabulary, physical descriptions, new modal and irregular verbs from class, and DELF A1 preparation.",
+    "duration_minutes": 120,
+    "difficulty": "beginner"
+  },
+  "vocabulary": [
+    { "french": "la tour Eiffel", "english": "the Eiffel Tower", "notes": "Feminine. One of the 4 monuments covered in Unité 0 video activity." },
+    { "french": "le musée du Louvre", "english": "the Louvre Museum", "notes": "Masculine. The most visited museum in the world." },
+    { "french": "le château de Chambord", "english": "Chambord Castle", "notes": "Masculine. Famous Loire Valley château." },
+    { "french": "le Mont Saint-Michel", "english": "Mont Saint-Michel", "notes": "Masculine. Island abbey in Normandy." },
+    { "french": "la baguette", "english": "the baguette", "notes": "Feminine. Symbol of French culture — 320 sold per second in France!" },
+    { "french": "les macarons", "english": "macarons", "notes": "Plural. Colourful French almond meringue biscuits." },
+    { "french": "le bateau-mouche", "english": "the river cruise boat", "notes": "Masculine. Tourist boats on the Seine in Paris." },
+    { "french": "la voiture", "english": "the car", "notes": "Feminine." },
+    { "french": "la porte", "english": "the door", "notes": "Feminine." },
+    { "french": "le réveil", "english": "the alarm clock", "notes": "Masculine." },
+    { "french": "le frigo", "english": "the fridge", "notes": "Masculine. Informal short form of 'réfrigérateur'." },
+    { "french": "la joie", "english": "joy", "notes": "Feminine. One of 6 core emotions." },
+    { "french": "la tristesse", "english": "sadness", "notes": "Feminine." },
+    { "french": "la peur", "english": "fear", "notes": "Feminine. 'J'ai peur' = I am scared (use avoir, not être)." },
+    { "french": "la colère", "english": "anger", "notes": "Feminine." },
+    { "french": "le dégoût", "english": "disgust", "notes": "Masculine." },
+    { "french": "la surprise", "english": "surprise", "notes": "Feminine." },
+    { "french": "la fatigue", "english": "fatigue / tiredness", "notes": "Feminine. 'Je suis fatigué(e).' = I am tired." },
+    { "french": "l'amour", "english": "love", "notes": "Masculine. 'Il/Elle est amoureux/amoureuse.' = He/She is in love." },
+    { "french": "le stress", "english": "stress", "notes": "Masculine. Same spelling as English." },
+    { "french": "les vendanges", "english": "the grape harvest", "notes": "Feminine plural. Takes place in September–October in France." },
+    { "french": "la fête nationale", "english": "national day / Bastille Day", "notes": "Feminine. 14 juillet — no work, fireworks. 'Il y a des feux d'artifice.'" },
+    { "french": "le festival de Cannes", "english": "the Cannes Film Festival", "notes": "Masculine. Held in May. One of the world's most prestigious film festivals." },
+    { "french": "un porte-monnaie", "english": "a wallet / coin purse", "notes": "Masculine. From 'porter' (to carry) + 'monnaie' (change/money)." },
+    { "french": "des bijoux", "english": "jewellery / jewels", "notes": "Masculine plural. Singular: un bijou. Plural adds -x not -s." },
+    { "french": "une boîte de Tic-Tac", "english": "a box of Tic-Tacs", "notes": "Feminine. From the textbook bag-contents reading." },
+    { "french": "des tickets de métro", "english": "metro tickets", "notes": "Masculine plural." },
+    { "french": "une annonce immobilière", "english": "a housing advertisement", "notes": "Feminine. 'immobilier/immobilière' = relating to property." },
+    { "french": "louer", "english": "to rent", "notes": "Regular -ER verb. 'Je loue un appartement.' = I rent an apartment." },
+    { "french": "un propriétaire / une propriétaire", "english": "an owner / landlord", "notes": "Same form for m/f noun." },
+    { "french": "un/une locataire", "english": "a tenant", "notes": "Same form for m/f." },
+    { "french": "le loyer", "english": "the rent (monthly payment)", "notes": "Masculine. 'Le loyer est de 700 euros par mois.' = The rent is €700/month." },
+    { "french": "des charges", "english": "utility charges / fees", "notes": "Feminine plural. Usually includes water, building maintenance, etc." },
+    { "french": "meublé / non meublé", "english": "furnished / unfurnished", "notes": "Adjective. 'Un appartement meublé' = a furnished apartment." },
+    { "french": "une agence immobilière", "english": "a real estate agency", "notes": "Feminine." },
+    { "french": "le rez-de-chaussée", "english": "the ground floor", "notes": "Masculine. In France, the ground floor = 0. What English calls 1st floor = 1er étage." },
+    { "french": "un étage", "english": "a floor / storey", "notes": "Masculine. 'Au premier étage' = on the first floor (above ground)." },
+    { "french": "le sous-sol", "english": "the basement", "notes": "Masculine. Literally 'under the ground'." },
+    { "french": "un ascenseur", "english": "a lift / elevator", "notes": "Masculine. 'Sans ascenseur' = without a lift." },
+    { "french": "un immeuble", "english": "a (residential) building", "notes": "Masculine. An apartment block." },
+    { "french": "un studio", "english": "a studio apartment", "notes": "Masculine. One main room + bathroom + kitchenette." },
+    { "french": "un trois-pièces", "english": "a three-room apartment", "notes": "Masculine hyphenated noun. In French, rooms are counted excluding bathroom." },
+    { "french": "la surface", "english": "the floor area / size", "notes": "Feminine. 'Quelle est la surface ?' = What is the size?" },
+    { "french": "chauffé / éclairé", "english": "heated / lighted", "notes": "Past participles used as adjectives." },
+    { "french": "la location", "english": "the rental", "notes": "Feminine. 'Location' in French NEVER means 'place' — it means rental!" },
+    { "french": "le contrat", "english": "the contract", "notes": "Masculine." },
+    { "french": "un arrondissement", "english": "a district / borough", "notes": "Masculine. Paris has 20 arrondissements (numbered districts)." },
+    { "french": "la vente", "english": "the sale", "notes": "Feminine. 'En vente' = for sale. 'Vente' from 'vendre' (to sell)." },
+    { "french": "le prix", "english": "the price / cost", "notes": "Masculine. 'Quel est le prix ?' = What is the price?" },
+    { "french": "un phare", "english": "a lighthouse", "notes": "Masculine. Featured in Unité 2 unusual accommodation reading (Phare de Kerbel)." },
+    { "french": "insolite", "english": "unusual / quirky", "notes": "Invariable adjective. 'Des habitations insolites' = unusual accommodations." },
+    { "french": "lumineux / lumineuse", "english": "bright / sunny (of a room)", "notes": "Masculine/feminine. 'Un appartement lumineux.' = A bright apartment." },
+    { "french": "une pièce à vivre", "english": "a living area / main room", "notes": "Feminine. Used for studio apartments." },
+    { "french": "un clic-clac", "english": "a sofa bed", "notes": "Masculine. Compound noun from the clicking sound it makes." },
+    { "french": "d'après vous", "english": "according to you / in your opinion", "notes": "Formal. Informal: 'd'après toi'. From class chat." },
+    { "french": "à droite", "english": "to the right", "notes": "From class chat. Opposite: à gauche (to the left)." },
+    { "french": "à gauche", "english": "to the left", "notes": "From class chat." },
+    { "french": "vrai / vraie", "english": "true", "notes": "Adjective. Masculine: vrai. Feminine: vraie. Opposite: faux/fausse." },
+    { "french": "faux / fausse", "english": "false / wrong", "notes": "Masculine: faux. Feminine: fausse. Used in 'vrai ou faux ?' exercises." },
+    { "french": "un peu", "english": "a little", "notes": "Adverb. 'Je parle un peu français.' = I speak a little French." },
+    { "french": "plus", "english": "more", "notes": "Comparative adverb. 'Je voudrais plus de café.' = I would like more coffee." },
+    { "french": "depuis", "english": "since / for (time)", "notes": "Preposition. 'J'habite ici depuis 3 ans.' = I have lived here for 3 years." },
+    { "french": "enfin", "english": "finally / at last", "notes": "Adverb. Also used to introduce a last point in a list." },
+    { "french": "il s'agit de", "english": "it is about / it concerns", "notes": "Impersonal expression. 'Il s'agit d'un appartement meublé.' = It is about a furnished apartment." },
+    { "french": "grâce à", "english": "thanks to / because of", "notes": "Preposition. 'Grâce à toi, je parle français.' = Thanks to you, I speak French." },
+    { "french": "il / elle est grand(e) / petit(e)", "english": "he / she is tall / short", "notes": "Physical description. Feminine adds -e: grande, petite." },
+    { "french": "il / elle a les cheveux châtains", "english": "he / she has brown hair", "notes": "Brown hair = châtain (invariable). 'Il a les cheveux châtains.' = He has brown hair." },
+    { "french": "il / elle a les cheveux longs", "english": "he / she has long hair", "notes": "Hair description. Short: courts. Curly: bouclés. Straight: raides." },
+    { "french": "il / elle a les yeux bleus", "english": "he / she has blue eyes", "notes": "Eye colours: bleus (blue), verts (green), noirs (black), marrons (brown)." },
+    { "french": "une joueuse de squash", "english": "a squash player (f)", "notes": "From class chat: 'Je suis une joueuse de squash.' Masculine: un joueur de squash." },
+    { "french": "un diplôme d'études collégiales", "english": "a college diploma (DEC)", "notes": "Canadian French qualification — from class chat. DEC = Diplôme d'Études Collégiales." },
+    { "french": "parce que / parce qu'", "english": "because", "notes": "Conjunction. 'Parce que j'ai beaucoup de travail.' = Because I have a lot of work. Before vowel: parce qu'." }
+  ],
+  "verbs": [
+    {
+      "infinitive": "vouloir",
+      "meaning": "to want",
+      "conjugations": {
+        "je": "veux",
+        "tu": "veux",
+        "il/elle": "veut",
+        "nous": "voulons",
+        "vous": "voulez",
+        "ils/elles": "veulent"
+      },
+      "notes": "Irregular modal verb. Followed by infinitive: 'Je veux manger.' = I want to eat. KEY FORM: 'je voudrais' (conditional) = I would like — much more polite than 'je veux'. Always use 'je voudrais' in shops, restaurants, and polite requests.",
+      "examples": [
+        "Je veux apprendre le français. — I want to learn French.",
+        "Je voudrais un café, s'il vous plaît. — I would like a coffee, please.",
+        "Elle veut visiter Paris. — She wants to visit Paris."
+      ]
+    },
+    {
+      "infinitive": "pouvoir",
+      "meaning": "to be able to / can",
+      "conjugations": {
+        "je": "peux",
+        "tu": "peux",
+        "il/elle": "peut",
+        "nous": "pouvons",
+        "vous": "pouvez",
+        "ils/elles": "peuvent"
+      },
+      "notes": "Irregular modal verb. Followed by infinitive. 'Peux-je ?' is technically correct but rare — 'Est-ce que je peux ?' is standard. 'Vous pouvez m'aider ?' = Can you help me?",
+      "examples": [
+        "Je peux parler français. — I can speak French.",
+        "Pouvez-vous répéter ? — Can you repeat?",
+        "Il ne peut pas venir. — He cannot come."
+      ]
+    },
+    {
+      "infinitive": "vivre",
+      "meaning": "to live (to be alive / to experience life)",
+      "conjugations": {
+        "je": "vis",
+        "tu": "vis",
+        "il/elle": "vit",
+        "nous": "vivons",
+        "vous": "vivez",
+        "ils/elles": "vivent"
+      },
+      "notes": "Irregular. Note: 'vivre' = to live (be alive/experience). 'habiter' = to live (reside somewhere). 'Je vis à Paris' (I live in Paris, implying lifestyle) vs 'J'habite à Paris' (I reside in Paris). Also: 'la vie' = life (feminine noun).",
+      "examples": [
+        "Je vis en France depuis 3 ans. — I have been living in France for 3 years.",
+        "Il vit dans un appartement. — He lives in an apartment.",
+        "Vivre en colocation, c'est pratique. — Living in shared housing is practical."
+      ]
+    },
+    {
+      "infinitive": "voir",
+      "meaning": "to see",
+      "conjugations": {
+        "je": "vois",
+        "tu": "vois",
+        "il/elle": "voit",
+        "nous": "voyons",
+        "vous": "voyez",
+        "ils/elles": "voient"
+      },
+      "notes": "Irregular. Note nous/vous forms: voyons/voyez (stem changes to voy-). Common in classroom: 'Regardez et dites ce que vous voyez.' = Look and say what you see.",
+      "examples": [
+        "Qu'est-ce que vous voyez ? — What do you see?",
+        "Je vois des maisons et des appartements. — I see houses and apartments.",
+        "On se voit demain ? — Shall we see each other tomorrow?"
+      ]
+    },
+    {
+      "infinitive": "devenir",
+      "meaning": "to become",
+      "conjugations": {
+        "je": "deviens",
+        "tu": "deviens",
+        "il/elle": "devient",
+        "nous": "devenons",
+        "vous": "devenez",
+        "ils/elles": "deviennent"
+      },
+      "notes": "Irregular — conjugated like 'venir'. Note double-n in ils/elles deviennent. Common pattern: 'Il devient célèbre.' = He is becoming famous.",
+      "examples": [
+        "Elle devient professeure. — She is becoming a teacher.",
+        "Je veux devenir médecin. — I want to become a doctor.",
+        "Il devient de plus en plus célèbre. — He is becoming more and more famous."
+      ]
+    },
+    {
+      "infinitive": "gagner",
+      "meaning": "to win / to earn",
+      "conjugations": {
+        "je": "gagne",
+        "tu": "gagnes",
+        "il/elle": "gagne",
+        "nous": "gagnons",
+        "vous": "gagnez",
+        "ils/elles": "gagnent"
+      },
+      "notes": "Regular -ER verb. Two meanings: 1) to win (a game, prize) 2) to earn (money). Context determines which. 'Il gagne le match.' = He wins the match. 'Elle gagne 3000 euros par mois.' = She earns €3000/month.",
+      "examples": [
+        "Il gagne le match. — He wins the match.",
+        "Elle gagne bien sa vie. — She earns a good living.",
+        "Stromae gagne un NRJ Music Award. — Stromae wins an NRJ Music Award."
+      ]
+    },
+    {
+      "infinitive": "entendre",
+      "meaning": "to hear",
+      "conjugations": {
+        "je": "entends",
+        "tu": "entends",
+        "il/elle": "entend",
+        "nous": "entendons",
+        "vous": "entendez",
+        "ils/elles": "entendent"
+      },
+      "notes": "Regular -RE verb. Note: 'entendre' = to hear (passive). 'écouter' = to listen (active). 'J'entends de la musique.' (I hear music — it reaches my ears). 'J'écoute de la musique.' (I am listening to music — deliberately).",
+      "examples": [
+        "Vous entendez les sons ? — Do you hear the sounds?",
+        "On entend ses chansons à la radio. — His songs can be heard on the radio.",
+        "Je n'entends pas bien. — I don't hear well."
+      ]
+    },
+    {
+      "infinitive": "partager",
+      "meaning": "to share",
+      "conjugations": {
+        "je": "partage",
+        "tu": "partages",
+        "il/elle": "partage",
+        "nous": "partageons",
+        "vous": "partagez",
+        "ils/elles": "partagent"
+      },
+      "notes": "Regular -ER verb with spelling change: nous partageons (add -e- before -ons to keep the soft g sound). 'Partager son lieu de vie' = to share one's living space (Unité 2 title).",
+      "examples": [
+        "Je partage un appartement avec deux amis. — I share an apartment with two friends.",
+        "Nous partageons les factures. — We share the bills.",
+        "Elle partage sa vie avec lui. — She shares her life with him."
+      ]
+    },
+    {
+      "infinitive": "chercher",
+      "meaning": "to look for / to search",
+      "conjugations": {
+        "je": "cherche",
+        "tu": "cherches",
+        "il/elle": "cherche",
+        "nous": "cherchons",
+        "vous": "cherchez",
+        "ils/elles": "cherchent"
+      },
+      "notes": "Regular -ER verb. 'Chercher un logement' = to look for accommodation. Note: always followed directly by noun, no preposition needed (unlike English 'look FOR').",
+      "examples": [
+        "Je cherche un appartement à Paris. — I am looking for an apartment in Paris.",
+        "Il cherche du travail. — He is looking for work.",
+        "Chercher quelqu'un qui... — To find someone who..."
+      ]
+    },
+    {
+      "infinitive": "rêver",
+      "meaning": "to dream",
+      "conjugations": {
+        "je": "rêve",
+        "tu": "rêves",
+        "il/elle": "rêve",
+        "nous": "rêvons",
+        "vous": "rêvez",
+        "ils/elles": "rêvent"
+      },
+      "notes": "Regular -ER verb. 'Rêver de' + infinitive = to dream of doing something. 'À quoi rêvent les Français ?' = What do the French dream of? (Unité 2 section title).",
+      "examples": [
+        "Les Français rêvent d'acheter une maison. — The French dream of buying a house.",
+        "Je rêve de voyager. — I dream of travelling.",
+        "À quoi rêvez-vous ? — What do you dream of?"
+      ]
+    },
+    {
+      "infinitive": "accueillir",
+      "meaning": "to welcome / to receive",
+      "conjugations": {
+        "je": "accueille",
+        "tu": "accueilles",
+        "il/elle": "accueille",
+        "nous": "accueillons",
+        "vous": "accueillez",
+        "ils/elles": "accueillent"
+      },
+      "notes": "Irregular -IR verb that conjugates like an -ER verb. The double-l in singular/ils forms. 'Le phare accueille les clients.' = The lighthouse welcomes guests.",
+      "examples": [
+        "Le phare accueille les clients le week-end. — The lighthouse welcomes guests at the weekend.",
+        "Elle accueille ses invités avec plaisir. — She welcomes her guests with pleasure.",
+        "On vous accueille chaleureusement. — We welcome you warmly."
+      ]
+    },
+    {
+      "infinitive": "ressembler à",
+      "meaning": "to look like / to resemble",
+      "conjugations": {
+        "je": "ressemble à",
+        "tu": "ressembles à",
+        "il/elle": "ressemble à",
+        "nous": "ressemblons à",
+        "vous": "ressemblez à",
+        "ils/elles": "ressemblent à"
+      },
+      "notes": "Regular -ER verb. Always followed by 'à' — never drop it. 'Je ressemble à ma mère.' = I look like my mother. Used for physical resemblance.",
+      "examples": [
+        "Je ressemble à ma mère. — I look like my mother.",
+        "Elle ressemble à son frère. — She looks like her brother.",
+        "Il ressemble à un acteur célèbre. — He looks like a famous actor."
+      ]
+    },
+    {
+      "infinitive": "peser",
+      "meaning": "to weigh",
+      "conjugations": {
+        "je": "pèse",
+        "tu": "pèses",
+        "il/elle": "pèse",
+        "nous": "pesons",
+        "vous": "pesez",
+        "ils/elles": "pèsent"
+      },
+      "notes": "-ER verb with stem change: è (grave accent) in je/tu/il/ils forms. Used for weight. 'Il pèse 80 kilos.' = He weighs 80 kilos.",
+      "examples": [
+        "Il pèse 10 kilos. — He weighs 10 kilos.",
+        "Combien pèse-t-il ? — How much does he weigh?",
+        "Ce sac pèse lourd. — This bag is heavy."
+      ]
+    },
+    {
+      "infinitive": "dessiner",
+      "meaning": "to draw",
+      "conjugations": {
+        "je": "dessine",
+        "tu": "dessines",
+        "il/elle": "dessine",
+        "nous": "dessinons",
+        "vous": "dessinez",
+        "ils/elles": "dessinent"
+      },
+      "notes": "Regular -ER verb. 'Dessinez l'expression.' = Draw the expression (classroom instruction). 'Un dessinateur/une dessinatrice' = a cartoonist/designer.",
+      "examples": [
+        "Dessinez l'expression idiomatique. — Draw the idiomatic expression.",
+        "Il dessine très bien. — He draws very well.",
+        "Je dessine un plan de mon appartement. — I draw a floor plan of my apartment."
+      ]
+    },
+    {
+      "infinitive": "décrire",
+      "meaning": "to describe",
+      "conjugations": {
+        "je": "décris",
+        "tu": "décris",
+        "il/elle": "décrit",
+        "nous": "décrivons",
+        "vous": "décrivez",
+        "ils/elles": "décrivent"
+      },
+      "notes": "Irregular -RE verb, conjugated like 'écrire'. 'Décrivez votre logement.' = Describe your accommodation (textbook instruction).",
+      "examples": [
+        "Décrivez votre maison. — Describe your house.",
+        "Je décris mon voisin. — I describe my neighbour.",
+        "Comment décrivez-vous cette personne ? — How would you describe this person?"
+      ]
+    },
+    {
+      "infinitive": "demander",
+      "meaning": "to ask / to request",
+      "conjugations": {
+        "je": "demande",
+        "tu": "demandes",
+        "il/elle": "demande",
+        "nous": "demandons",
+        "vous": "demandez",
+        "ils/elles": "demandent"
+      },
+      "notes": "Regular -ER verb. 'Demander à quelqu'un de faire quelque chose' = to ask someone to do something. 'Demander poliment' = to ask politely (Unité 1 speaking workshop section).",
+      "examples": [
+        "Je demande de l'aide. — I ask for help.",
+        "Demandez poliment ! — Ask politely!",
+        "Il demande un café. — He asks for a coffee."
+      ]
+    },
+    {
+      "infinitive": "s'informer / se renseigner",
+      "meaning": "to find out / to inquire / to get information",
+      "conjugations": {
+        "je": "m'informe / me renseigne",
+        "tu": "t'informes / te renseignes",
+        "il/elle": "s'informe / se renseigne",
+        "nous": "nous informons / nous renseignons",
+        "vous": "vous informez / vous renseignez",
+        "ils/elles": "s'informent / se renseignent"
+      },
+      "notes": "Both are reflexive (-ER) verbs meaning essentially the same thing. 'Je m'informe sur les cours.' = I get information about the courses. 'Elle se renseigne à la réception.' = She enquires at reception.",
+      "examples": [
+        "Je m'informe sur les cours de français. — I get information about the French classes.",
+        "Elle se renseigne à la réception. — She enquires at reception.",
+        "Vous pouvez vous informer en ligne. — You can find out online."
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Le genre et le nombre des noms (Gender and number of nouns)",
+      "explanation": "Every French noun is either masculine (m) or feminine (f). There are no rules that work 100% of the time, but useful patterns: nouns ending in -tion, -sion, -ure, -ette, -ence are usually feminine. Nouns ending in -ment, -age, -isme are usually masculine. Plural: most nouns add -s (un appartement → des appartements). Special cases: nouns ending in -eau/-au add -x (un château → des châteaux, un bureau → des bureaux). Nouns ending in -s, -x, -z don't change (un bras → des bras). Nouns ending in -al often change to -aux (un journal → des journaux)."
+    },
+    {
+      "title": "Le genre et le nombre des adjectifs (Gender and number of adjectives)",
+      "explanation": "Adjectives agree with the noun they describe. Basic rule — add -e for feminine (grand → grande, petit → petite, lumineux → lumineuse). Add -s for masculine plural (grand → grands). Add -es for feminine plural (grande → grandes). Invariable adjectives (same for all): magnifique, pratique, célèbre, rouge, orange, marron. Irregular feminines: breton → bretonne (double n), rond → ronde, bon → bonne. Watch: adjectives ending in -eux change to -euse (lumineux → lumineuse). Adjectives ending in -ien change to -ienne (canadien → canadienne)."
+    },
+    {
+      "title": "Les articles définis — le, la, l', les (Definite articles)",
+      "explanation": "Used when referring to something specific or general categories. le (masc. sing.), la (fem. sing.), l' (before vowel or silent h), les (plural). From Unité 0 grammar box: Le → La → les. Used with emotions: 'La joie, la peur, la tristesse.' With days of the week in a recurring sense: 'Le lundi, je travaille.' = On Mondays, I work. Contrast with indefinite articles: 'J'ai un chat.' (I have a cat) vs 'Le chat est sur la table.' (The cat is on the table)."
+    },
+    {
+      "title": "Oui, Non, Si — three ways to say yes/no",
+      "explanation": "Oui = yes (affirmative answer to positive question). Non = no. SI = yes — used specifically to contradict a NEGATIVE question or statement. This is unique to French. Example: 'Tu n'es pas français ?' (You're not French?) — 'Si, je suis français.' (Yes I am French.) If you say 'Oui' to a negative question, it sounds like you're agreeing that the statement is true. Always use 'Si' to contradict a negative. From the Saison grammar box: 'Parfois à l'oral, on n'utilise pas le ne.' = In speech, the ne is sometimes dropped: 'Je sais pas.' instead of 'Je ne sais pas.'"
+    },
+    {
+      "title": "Les pronoms sujets et toniques (Subject and tonic pronouns)",
+      "explanation": "Subject pronouns: je, tu, il/elle/on, nous, vous, ils/elles — used before verbs. Tonic (stress) pronouns: moi, toi, lui/elle, nous, vous, eux/elles — used for emphasis, after prepositions, after 'et', and after 'c'est'. Examples: 'Moi, je suis français.' (Me, I am French — emphasis). 'C'est lui.' (It's him). 'Je parle et toi, tu écoutes.' (I speak and you listen). After prepositions: 'C'est pour moi.' (It's for me). 'Il vit avec elle.' (He lives with her). Note: 'on' can replace 'nous' in informal speech: 'On va manger ?' = Shall we eat?"
+    },
+    {
+      "title": "La négation (1) — ne… pas",
+      "explanation": "To make a sentence negative: ne before the verb + pas after. 'Je parle.' → 'Je ne parle pas.' Before vowel: ne contracts to n': 'Je n'habite pas.' From the Saison grammar box: Ne goes before the verb, pas goes after. TWO PARTS ALWAYS. Informal spoken French often drops 'ne': 'Je sais pas.' / 'C'est pas vrai.' — acceptable in conversation but not in writing. IMPORTANT: When a negative answer to a NEGATIVE question, use 'Si' not 'Oui': 'Tu n'es pas étudiant ?' — 'Si, je suis étudiant.' (Yes, I am a student)."
+    },
+    {
+      "title": "Les articles indéfinis — un, une, des (Indefinite articles)",
+      "explanation": "Used for non-specific nouns. un (masc. sing.) = a/an. une (fem. sing.) = a/an. des (plural) = some/any. After negation, un/une/des become de/d': 'J'ai un sac.' → 'Je n'ai pas de sac.' 'Il y a des livres.' → 'Il n'y a pas de livres.' Exception: after être, keep the article: 'C'est un médecin.' → 'Ce n'est pas un médecin.' (not 'Ce n'est pas de médecin'). From textbook: 'Un agenda (masc.), une boîte (fem.), des clés (pl.)'."
+    },
+    {
+      "title": "Les prépositions de lieu avec les villes et pays",
+      "explanation": "With CITIES: always à (à Paris, à Calgary, à Bruxelles). With COUNTRIES: en + feminine/vowel-starting (en France, en Inde, en Italie). au + masculine (au Canada, au Japon, au Maroc). aux + plural (aux États-Unis, aux Pays-Bas). To say FROM: venir de + l' (de l'Inde), venir du (du Canada), venir de (de France), venir des (des États-Unis). From Saison textbook examples: 'Vous habitez à Bruxelles. Vous travaillez au Canada. Vous venez du Mali. Vous venez de Suisse.'"
+    },
+    {
+      "title": "Consonnes finales muettes et e muet (Silent final consonants and silent e)",
+      "explanation": "From the Saison Phonétique section (p.28): Final consonants are generally NOT pronounced in French. 'Une actrice anglaise' — the -e at the end IS pronounced because it follows a consonant. 'Il est libanais' — final -s is silent. EXCEPTION: final -r in certain words is pronounced (un chanteur). This affects nationality adjectives: 'français' (m) — final -s silent. 'française' (f) — final -e makes the preceding consonant audible. So masculine and feminine are pronounced differently! 'américain' vs 'américaine' — the final -n is pronounced in feminine."
+    },
+    {
+      "title": "Les questions (1) — est-ce que, qui est-ce, quel",
+      "explanation": "Question forms from Unité 1: 'Qui est-ce ?' = Who is it? 'C'est qui ?' = Who is it? (informal). 'Est-ce que' turns any statement into a question without changing word order. 'Vous habitez à Paris ?' → 'Est-ce que vous habitez à Paris ?' 'Quel/Quelle' (what/which) agrees with the noun: 'Quel est ton nom ?' (m) / 'Quelle est ta nationalité ?' (f). Asking about 3rd person name: 'Comment s'appelle-t-il/elle ?' — the -t- is a phonetic liaison, not grammatical. Communication: 'Vous vous appelez comment ?' / 'Tu t'appelles comment ?'"
+    },
+    {
+      "title": "Les verbes modaux — vouloir, pouvoir, devoir",
+      "explanation": "Modal verbs express ability, obligation, or desire. All are followed by an infinitive. vouloir (to want): je veux → je voudrais (conditional, more polite). pouvoir (to be able to/can): je peux — 'Vous pouvez m'aider ?' (Can you help me?). devoir (must/to have to): je dois — 'Je dois partir.' (I must leave). Important: 'je voudrais' is the polite form of 'je veux' — in shops, restaurants, and any polite request, always prefer 'je voudrais'. 'Je veux un café' sounds rude. 'Je voudrais un café' is polite."
+    },
+    {
+      "title": "Habiter vs vivre — two ways to express 'to live'",
+      "explanation": "Both can mean 'to live' but with nuance. 'Habiter' = to reside, to be located somewhere: 'J'habite à Calgary.' (I reside in Calgary). Followed directly by a place. 'Vivre' = to live in a broader sense — alive, experiencing life: 'Je vis en France depuis 3 ans.' (I have been living in France for 3 years — lifestyle). 'Vivre en colocation' = to live in shared housing (experience). In practice, both are often interchangeable for simple location statements, but 'vivre' implies more of a lifestyle element."
+    }
+  ],
+  "key_phrases": [
+    { "french": "J'habite à Calgary au Canada.", "english": "I live in Calgary, Canada.", "context": "From class — full sentence with city (à) + country (au)" },
+    { "french": "Je viens de l'Inde.", "english": "I come from India.", "context": "Origin phrase — de + l' before vowel" },
+    { "french": "J'ai 25 ans.", "english": "I am 25 years old.", "context": "Age — use avoir, not être" },
+    { "french": "Je suis une joueuse de squash.", "english": "I am a squash player (female).", "context": "From class chat — sport + profession structure" },
+    { "french": "Je suis indienne.", "english": "I am Indian (female).", "context": "Nationality adjective — lowercase, feminine form" },
+    { "french": "Parce que j'ai beaucoup de travail aujourd'hui.", "english": "Because I have a lot of work today.", "context": "Giving a reason — parce que + subject + verb" },
+    { "french": "Bonjour, je voudrais…, s'il vous plaît.", "english": "Hello, I would like…, please.", "context": "Polite request — always use voudrais, not veux" },
+    { "french": "C'est combien ?", "english": "How much is it?", "context": "Buying something — short form of 'Combien ça coûte ?'" },
+    { "french": "Ça fait combien ?", "english": "How much does that come to?", "context": "At a till / checkout" },
+    { "french": "Vous pouvez répéter, s'il vous plaît ?", "english": "Could you repeat, please?", "context": "Asking for repetition — polite form" },
+    { "french": "Je ne comprends pas.", "english": "I don't understand.", "context": "Essential beginner phrase — use it freely" },
+    { "french": "Excusez-moi, je cherche…", "english": "Excuse me, I am looking for…", "context": "Asking for directions / information" },
+    { "french": "Qu'est-ce qu'il y a dans votre sac ?", "english": "What is in your bag?", "context": "Textbook activity — qu'est-ce que + il y a" },
+    { "french": "Dans mon sac, il y a toujours des clés.", "english": "In my bag, there are always keys.", "context": "From the Pénélope blog text in Saison p.26" },
+    { "french": "Combien ça coûte le loyer ?", "english": "How much is the rent?", "context": "Rental enquiry — key question from vocabulary PPTX" },
+    { "french": "Le logement est-il meublé ?", "english": "Is the property furnished?", "context": "Rental question" },
+    { "french": "Où se situe l'appartement ?", "english": "Where is the apartment located?", "context": "Rental question" },
+    { "french": "Il est disponible à partir du 1er juin.", "english": "It is available from June 1st.", "context": "Rental answer — 'à partir de' = from (date)" },
+    { "french": "Mon studio est au premier étage.", "english": "My studio is on the first floor.", "context": "Describing apartment location" },
+    { "french": "C'est clair et lumineux.", "english": "It is bright and sunny.", "context": "Describing a room/apartment" },
+    { "french": "Il s'agit d'un appartement meublé.", "english": "It is a furnished apartment.", "context": "Using 'il s'agit de' from class chat" },
+    { "french": "Vous vous appelez comment ?", "english": "What is your name? (formal)", "context": "Formal name question — from Saison communication table" },
+    { "french": "Vous venez d'où ?", "english": "Where are you from? (formal)", "context": "Origin question — formal" },
+    { "french": "Tu habites où ?", "english": "Where do you live? (informal)", "context": "Residence question — informal" },
+    { "french": "Tu travailles où ?", "english": "Where do you work? (informal)", "context": "Work location question" },
+    { "french": "Pardon, vous avez l'heure ?", "english": "Excuse me, do you have the time?", "context": "Asking for the time — polite" },
+    { "french": "Avec plaisir !", "english": "With pleasure!", "context": "Responding politely to a request" },
+    { "french": "Je vous en prie. / Je t'en prie.", "english": "You're welcome. (formal / informal)", "context": "Polite response to merci — more formal than 'de rien'" },
+    { "french": "À vos souhaits ! / À tes souhaits !", "english": "Bless you! (after sneezing)", "context": "Cultural — French say this when someone sneezes" }
+  ],
+  "cultural_notes": [
+    {
+      "title": "La bise — French greeting customs",
+      "content": "In France, friends and family greet each other with 'la bise' — cheek kisses. The number varies by region: 1 in some areas, 2 in Paris, up to 4 in some regions. At work, a handshake ('se serrer la main') is standard, or simply 'Bonjour'. Between men, a handshake is most common. The bise is not done with strangers. When in doubt, follow the other person's lead. Cultural point from textbook: 'Généralement, on se fait la bise : une, deux, trois ou quatre selon les régions.'"
+    },
+    {
+      "title": "Tu ou Vous — a cultural distinction",
+      "content": "From the Saison Point culturel: 'On dit tu à quelqu'un que l'on connaît. On dit vous à un inconnu ou à son chef.' = Tu is for people you know, vous for strangers or your boss. This distinction is socially loaded in France — using tu with someone who expects vous can be seen as rude or presumptuous. Using vous is always the safe default with adults you've just met. In some contexts (young people, informal workplaces), tu is quickly adopted. The act of switching to tu is called 'se tutoyer'."
+    },
+    {
+      "title": "Le français dans le monde — Francophone world",
+      "content": "From Saison Unité 1: 220 million people speak French in the world. French is spoken not just in France but across the Francophone world: Quebec (Canada), Belgium, Switzerland, Morocco, Senegal, Mali, Ivory Coast, and many other countries. The personalities studied — Kristin Scott Thomas (British), Mika (Lebanese), Akira Mizubayashi (Japanese) — all work in French despite not being born in France. Stromae (Belgium) sings in French and is heard on the radio in Mexico, Brazil, Russia and Canada. French is truly a world language."
+    },
+    {
+      "title": "Fiches d'artistes francophones — class profiles",
+      "content": "Three key profiles from the Saison p.25 reading: Kristin Scott Thomas — born 1960, Royaume-Uni (UK), nationality anglaise, profession actrice, film 'Partir'. Akira Mizubayashi — born 1952, Japon, nationality japonaise, profession écrivain et professeur de français, book 'Une langue venue d'ailleurs'. Mika — born 1983, Beyrouth (Beirut), nationality libanaise, profession chanteur, song 'Elle me dit'. All three are non-French but work and create in French — illustrating the reach of the French language."
+    },
+    {
+      "title": "La France en bref — key facts from Saison Actu Culture",
+      "content": "Population: 66.4 million. Area: 641,185 km². Capital: Paris. Currency: Euro. Official language: French. National holiday: 14 juillet (Bastille Day). Top 10 cities: Paris, Marseille, Lyon, Toulouse, Nice, Nantes, Strasbourg, Montpellier, Bordeaux, Rennes. Historical figures: Napoléon Bonaparte (emperor, 1769–1821), Charles De Gaulle (statesman, 1890–1970), Louis XIV (Roi Soleil, 1638–1715), Victor Hugo (poet and writer, 1802–1885). Top 6 influential French people (2013): Daft Punk, Christine Lagarde, Alain Ducasse, Delphine Arnault, Henri de Castries, Inès de la Fressange."
+    },
+    {
+      "title": "Les jeux vidéo et l'animation 3D française",
+      "content": "France is the world's #1 cultural industry leader in video games and 3D animation. There are 250 companies in France in this sector. 'Moi, moche et méchant 2' (Despicable Me 2) generated $700 million worldwide and is partly a French production. French successes include Rayman Origins and contributions to Game of Thrones. American studios call on French expertise — for example, Les Schtroumpfs 2. The idiomatic expression 'Ça n'est pas ma tasse de thé' was taught in context: 'Les jeux vidéo, ça n'est pas ma tasse de thé. Je préfère lire des mangas.'"
+    },
+    {
+      "title": "Stromae — francophone music star (DELF reading)",
+      "content": "Stromae (real name Paul Van Haver) was born 12 March 1985 in Brussels. His mother is Flemish and his father is Rwandan. He has lived in the Brussels region since childhood. He started his career as a rapper in 2000, creating the rap group Suspicion. In 2009, he became a star with the song 'Alors on danse' and won an NRJ Music Award. He describes himself as 'un Belge qui a grandi avec la langue française et un peu de flamand.' His songs are heard on the radio in Mexico, Brazil, Russia and Canada. He is one of the most important francophone artists of his generation."
+    }
+  ],
+  "practice_exercises": [
+    {
+      "type": "fill_in_the_blank",
+      "instruction": "Complete with the correct form of vouloir, pouvoir, or devoir",
+      "items": [
+        { "prompt": "Je ___ un café, s'il vous plaît. (vouloir — polite form)", "answer": "voudrais" },
+        { "prompt": "Tu ___ parler plus lentement ? (pouvoir)", "answer": "peux" },
+        { "prompt": "Elle ___ travailler ce soir. (devoir)", "answer": "doit" },
+        { "prompt": "Nous ___ apprendre le français. (vouloir)", "answer": "voulons" },
+        { "prompt": "Vous ___ m'aider ? (pouvoir — polite question)", "answer": "pouvez" },
+        { "prompt": "Ils ___ partir à 8h. (devoir)", "answer": "doivent" }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "instruction": "Choose oui, non, or si",
+      "items": [
+        { "prompt": "— Tu parles français ? — ___,  je parle un peu.", "answer": "Oui" },
+        { "prompt": "— Tu n'es pas canadien ? — ___, je suis canadien !", "answer": "Si" },
+        { "prompt": "— Elle n'habite pas à Paris ? — ___, elle habite à Lyon.", "answer": "Non" },
+        { "prompt": "— Tu ne veux pas de café ? — ___, je voudrais un café !", "answer": "Si" },
+        { "prompt": "— Vous comprenez ? — ___, je ne comprends pas.", "answer": "Non" }
+      ]
+    },
+    {
+      "type": "translate",
+      "instruction": "Translate into French",
+      "items": [
+        { "prompt": "I would like to rent a furnished apartment.", "answer": "Je voudrais louer un appartement meublé." },
+        { "prompt": "How much is the rent?", "answer": "Combien ça coûte le loyer ? / Quel est le prix du loyer ?" },
+        { "prompt": "The apartment is on the second floor without a lift.", "answer": "L'appartement est au deuxième étage sans ascenseur." },
+        { "prompt": "She looks like her mother.", "answer": "Elle ressemble à sa mère." },
+        { "prompt": "I am looking for a 3-room apartment in Paris.", "answer": "Je cherche un trois-pièces à Paris." },
+        { "prompt": "The French dream of buying a house.", "answer": "Les Français rêvent d'acheter une maison." }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "instruction": "Complete the rental ad with the correct vocabulary: loyer / meublé / étage / ascenseur / charges / pièces",
+      "items": [
+        { "prompt": "Appartement 3 ___ à louer.", "answer": "pièces" },
+        { "prompt": "Au 4ème ___, sans ___.", "answer": "étage / ascenseur" },
+        { "prompt": "Appartement non ___, lumineux.", "answer": "meublé" },
+        { "prompt": "___ : 850 euros/mois + ___.", "answer": "Loyer / charges" }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose the correct adjective form to agree with the noun",
+      "items": [
+        { "prompt": "Une actrice ___ (anglais / anglaise / anglaises)", "answer": "anglaise (feminine singular)" },
+        { "prompt": "Des appartements ___ (lumineux / lumineuse / lumineux)", "answer": "lumineux (masculine plural — adjectives ending in -eux don't add -s)" },
+        { "prompt": "Une maison ___ (grand / grande / grands)", "answer": "grande (feminine singular)" },
+        { "prompt": "Un studio ___ (meublé / meublée / meublés)", "answer": "meublé (masculine singular)" },
+        { "prompt": "Des habitations ___ (insolite / insolites / insolite)", "answer": "insolites (plural — add -s)" }
+      ]
+    }
+  ],
+  "extra_sections": [
+    {
+      "label": "🎵 Audio Files — Saison 1 Exercise Map",
+      "icon": "🎵",
+      "content": "20 MP3 files uploaded for Saison 1. Each corresponds to a specific textbook exercise. Use these alongside the book pages.",
+      "items": [
+        "Track 01 — Unité 0, Activité 2a, p.14 → Dialogues: Dans la rue / Au travail / À un concert (saluer)",
+        "Track 02 — Unité 0, Activité 2b, p.14 → Match dialogue to location/pronoun/phrase",
+        "Track 03 — Unité 0, Activité 3, p.15 → Jeux de lettres: Écoutez et écrivez les lettres",
+        "Track 04 — Unité 0, Activité 1, p.16 → Jeu sonore: Écoutez les bruits et associez aux images",
+        "Track 05 — Unité 0, Activité 2, p.16 → Blablabla: Onomatopées (Ding dong, Toc toc, Tic tac...)",
+        "Track 06 — Unité 0, Activité 3a, p.17 → Tendez l'oreille: Nationalités (Dian Xi, Patrick, Emma...)",
+        "Track 07 — Unité 0, Activité 3b, p.17 → Féminin ou masculin ? Complétez le tableau",
+        "Track 08 — Unité 0, Activité 3c, p.17 → Question ou affirmation ? + nombre de syllabes",
+        "Track 09 — Unité 0, Activité 2, p.18 → Devinettes: Drapeaux de pays francophones dans l'ordre",
+        "Track 10 — Unité 0, Activité 3, p.19 → C'est combien ? Quels chiffres entendez-vous ?",
+        "Track 11 — Unité 0, Activité 1, p.20 → Jeu d'émotions: Associez phrase à image",
+        "Track 12 — Unité 0, Activité 2, p.20 → La France en fête: Rendez-vous festifs de l'année",
+        "Track 13 — Unité 0, Activité 3, p.21 → J'ai rendez-vous: Dialogue (Comment s'appelle-t-il...)",
+        "Track 14 — Unité 1, Activités 2, 3 & 4, p.24 → Personnalités francophones: émission, ordre, nationalités",
+        "Track 15 — Unité 1, Activité 4b, p.24 → Tendez l'oreille: Sons finals des mots",
+        "Track 16 — Unité 1, Activité 8, p.25 → Écoutez le dialogue sur Mika / Kristin / Akira",
+        "Track 17 — Unité 1, Activités 4, 5 & 6, p.27 → Videz votre sac: Documents dans l'ordre + contenu",
+        "Track 18 — Unité 1, Activité 6b, p.27 → Sons [ɛ] ou [yn]: Tendez l'oreille",
+        "Track 19 — Unité 1, Activité 7, p.27 → Pronoms toniques: Mot accentué dans chaque phrase",
+        "Track 20 — Unité 1, Activités 1, 2 & 3, p.28 → Phonétique: Consonnes finales muettes / Un–une"
+      ]
+    },
+    {
+      "label": "🔢 Numbers 70–1000",
+      "icon": "🔢",
+      "content": "The tricky numbers above 69 — new in this lesson from the Saison textbook p.30.",
+      "items": [
+        "70 = soixante-dix (literally: sixty-ten)",
+        "71 = soixante et onze",
+        "72 = soixante-douze ... 79 = soixante-dix-neuf",
+        "80 = quatre-vingts (literally: four-twenties) — NOTE: no 'et', and loses the -s when followed by another number",
+        "81 = quatre-vingt-un (no -s on vingt!)",
+        "84 = quatre-vingt-quatre",
+        "90 = quatre-vingt-dix",
+        "91 = quatre-vingt-onze ... 99 = quatre-vingt-dix-neuf",
+        "100 = cent",
+        "107 = cent sept",
+        "500 = cinq cents (adds -s when standalone, no -s when followed by number)",
+        "560 = cinq cent soixante (no -s because followed by number)",
+        "1 000 = mille (never takes -s)",
+        "TIP: Belgian and Swiss French use septante (70), huitante/octante (80), nonante (90) — much simpler!"
+      ]
+    },
+    {
+      "label": "🏠 Rental Vocabulary — Quick Reference",
+      "icon": "🏠",
+      "content": "Key vocabulary for understanding and writing housing ads (annonces immobilières).",
+      "items": [
+        "louer — to rent | le loyer — the rent | les charges — utility fees",
+        "meublé / non meublé — furnished / unfurnished",
+        "un propriétaire — a landlord | un locataire — a tenant",
+        "une agence immobilière — a real estate agency",
+        "le rez-de-chaussée (RDC) — ground floor (= floor 0 in France)",
+        "le 1er étage — first floor above ground (= 2nd floor in UK/North America)",
+        "un ascenseur — a lift | sans ascenseur — no lift",
+        "un studio — a studio (1 main room) | un deux-pièces, trois-pièces etc.",
+        "meublé et lumineux — furnished and bright/sunny",
+        "disponible à partir du... — available from...",
+        "Typical rental question: Combien coûte le loyer ? — How much is the rent?",
+        "Typical rental question: Y a-t-il un balcon ? — Is there a balcony?",
+        "Typical rental answer: Le loyer est de 850 euros par mois, charges comprises."
+      ]
+    },
+    {
+      "label": "👤 Physical Description Vocabulary",
+      "icon": "👤",
+      "content": "From the Compréhension vocabulaire PPTX — describing people physically.",
+      "items": [
+        "Il/Elle est grand(e) — tall | petit(e) — short",
+        "Il/Elle est blond(e) — blonde | brun(e) — dark-haired | roux/rousse — red-haired",
+        "Il a les cheveux châtains — he has brown hair (châtain = invariable)",
+        "Elle a les cheveux longs — long hair | courts — short | bouclés — curly | raides — straight",
+        "Il/Elle a les yeux bleus — blue eyes | verts — green | noirs — black | marrons — brown",
+        "Il pèse 80 kilos — he weighs 80 kilos (peser = to weigh)",
+        "Elle ressemble à Juliette — she looks like Juliette (ressembler à)",
+        "Describing style: Il est élégant. Elle est sportive. Il est sympa(thique)."
+      ]
+    },
+    {
+      "label": "💬 Expressions idiomatiques — 5 new ones",
+      "icon": "💬",
+      "content": "Five new idiomatic expressions from the Compréhension vocabulaire PPTX.",
+      "items": [
+        "Avoir le cœur sur la main — literally 'to have your heart on your hand' = to be generous",
+        "Avoir la tête dans les nuages — literally 'to have your head in the clouds' = to be daydreaming",
+        "Être dans de beaux draps — literally 'to be in beautiful sheets' = to be in trouble",
+        "Mettre la main à la pâte — literally 'to put your hand in the dough' = to roll up your sleeves / get involved",
+        "Donner un coup de main — literally 'to give a stroke of the hand' = to help out",
+        "Already known: Ce n'est pas ma tasse de thé — It's not my cup of tea = I don't like it",
+        "Already known: Ce n'est pas la mer à boire — It's not the sea to drink = It's not that hard"
+      ]
+    },
+    {
+      "label": "🎭 Phonétique — Key Rules from Saison",
+      "icon": "🎭",
+      "content": "Pronunciation rules from the Saison Point Étape (p.28) — tested in audio tracks 3, 7, 8, 15, 18, 20.",
+      "items": [
+        "RULE 1 — Silent final consonants: Generally, the last consonant of a word is NOT pronounced.",
+        "français [frã-sɛ] — the -s is silent. libanais [li-ba-nɛ] — the -s is silent.",
+        "EXCEPTION: final -r is often pronounced: un chanteur [ʃɑ̃-tœʁ] — the -r IS pronounced.",
+        "RULE 2 — Silent final -e: The -e at the end of a word is generally not pronounced.",
+        "BUT: when -e follows a consonant, that consonant IS pronounced: anglaise [ɑ̃-glɛz] — the -s is voiced.",
+        "This means masculine and feminine forms often sound different: américain [a-me-ri-kɛ̃] vs américaine [a-me-ri-kɛn].",
+        "RULE 3 — Un vs une: 'un' = tongue forward + mouth slightly open. 'une' = lips rounded.",
+        "RULE 4 — Syllabation: French stresses the LAST syllable of each rhythmic group. Oui, MER-ci.",
+        "French word groups: bcd gptvw (lips closed) | flmnrsz (lips open) | ijyx (lips very closed) | eoug (lips rounded, closed) | ahk (lips wide open)."
+      ]
+    },
+    {
+      "label": "📝 DELF A1 Preparation — Formats",
+      "icon": "📝",
+      "content": "From Saison p.38–39. The DELF A1 exam has 4 parts.",
+      "items": [
+        "PARTIE 1 — Compréhension de l'oral: Listen to a document twice (30 sec pause between). Answer questions. Example: émission radio about astronaut Julie Payette.",
+        "PARTIE 2 — Compréhension des écrits: Read an article and answer questions. Example: biography of Stromae.",
+        "PARTIE 3 — Production écrite: Complete a form (library registration, profile). Example: Bibliothèque André Malraux form (nom, prénom, date de naissance, nationalité, profession, etc.)",
+        "PARTIE 4 — Production orale: 3 exercises: Entretien (answer questions about yourself), Échange d'informations (ask questions using given words), Jeu de rôles (role play a scenario).",
+        "Sample oral questions: Comment vous appelez-vous ? / Quelle est votre nationalité ? / Où habitez-vous ? / Vous avez quel âge ?",
+        "TIP: For DELF, always use VOUS forms in the oral exam unless told otherwise."
+      ]
+    },
+    {
+      "label": "🌍 Francophone Personalities — Saison p.25",
+      "icon": "🌍",
+      "content": "Three artists from the 'Fiches artistes' reading — used for nationality, profession, and birth year practice.",
+      "items": [
+        "A — Kristin Scott Thomas: née en 1960, Royaume-Uni. Nationalité: anglaise. Profession: actrice. Film: Partir.",
+        "B — Akira Mizubayashi: né en 1952, Japon. Nationalité: japonaise. Profession: écrivain et professeur de français. Livre: Une langue venue d'ailleurs.",
+        "C — Mika: né en 1983, Beyrouth (Liban). Nationalité: libanaise. Profession: chanteur. Chanson: Elle me dit.",
+        "Key sentences: Ils ne sont pas nés en France. Ils n'habitent pas en France. Ils ne parlent pas français tous les jours. Mais ils chantent/écrivent/jouent en français.",
+        "Grammar in context: 'Elle est née en 1960' = She was born in 1960 (être + past participle, feminine adds -e)",
+        "Question practice: Quelle est la nationalité de Mika ? / Comment s'appelle l'actrice ? / Quand est née la femme ?"
+      ]
+    }
+  ]
+}
