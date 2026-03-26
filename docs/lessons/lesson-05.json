@@ -1,0 +1,493 @@
+{
+  "meta": {
+    "lesson_number": 5,
+    "title": "Unité 2 — Logement, Sons & Lecture : Partager son lieu de vie",
+    "date": "2026-03-26",
+    "topic": "Housing vocabulary in depth, physical descriptions, phonetics (consonant clusters, nasal sounds, silent letters, U vs OU), grammar of gender/number for nouns and adjectives, apologising and blaming, giving contact details, and two reading exercises with pronunciation practice.",
+    "duration_minutes": 90,
+    "difficulty": "beginner"
+  },
+  "vocabulary": [
+    { "french": "une entrée", "english": "an entrance hall", "notes": "Feminine. The small hallway when you first enter an apartment." },
+    { "french": "la salle à manger", "english": "the dining room", "notes": "Feminine. Literally 'the room to eat'. Distinct from salon (living room)." },
+    { "french": "la salle de séjour", "english": "the sitting room / lounge", "notes": "Feminine. Used interchangeably with 'le salon'. 'Séjour' = stay." },
+    { "french": "un bureau", "english": "an office / a desk", "notes": "Masculine. Plural: des bureaux (-au → -aux rule). Can mean both the room and the piece of furniture." },
+    { "french": "une cave", "english": "a cellar / basement storage", "notes": "Feminine. Different from 'le sous-sol' (basement floor)." },
+    { "french": "un garage", "english": "a garage", "notes": "Masculine." },
+    { "french": "un canapé", "english": "a sofa / couch", "notes": "Masculine. 'Je suis sur le canapé.' = I am on the sofa." },
+    { "french": "un placard", "english": "a cupboard / closet", "notes": "Masculine. Built-in storage, not a freestanding wardrobe." },
+    { "french": "un chauffage", "english": "heating", "notes": "Masculine. 'Appartement chauffé' = heated apartment." },
+    { "french": "un poêle à bois", "english": "a wood-burning stove", "notes": "Masculine. From the Swiss chalet reading: 'un poêle à bois'." },
+    { "french": "un dôme", "english": "a dome", "notes": "Masculine. From the reading: 'Chaque dôme de 40 m est meublé'." },
+    { "french": "un lit double", "english": "a double bed", "notes": "Masculine. Lit simple = single bed. Lit double = double bed." },
+    { "french": "une salle de bain privative", "english": "a private bathroom", "notes": "Feminine. 'Privatif/privative' = exclusively for one's use." },
+    { "french": "le spa", "english": "the spa", "notes": "Masculine. 'En utilisation libre et gratuit' = free to use." },
+    { "french": "le petit déjeuner", "english": "breakfast", "notes": "Masculine. Literally 'little lunch'. Included in the tariff in the Swiss chalet reading." },
+    { "french": "le tea time", "english": "afternoon tea", "notes": "Masculine. English borrowing used in French. Featured in Swiss chalet ad." },
+    { "french": "l'altitude", "english": "the altitude", "notes": "Feminine. '1400 m d'altitude' = at 1400m altitude. Takes l' before vowel." },
+    { "french": "meublé(e)", "english": "furnished", "notes": "Adjective from 'meubler' (to furnish). Opposite: non meublé." },
+    { "french": "le loyer", "english": "the rent", "notes": "Masculine. 'Le loyer est de combien ?' = How much is the rent?" },
+    { "french": "la liaison", "english": "the liaison (linking of words)", "notes": "Feminine. In French phonetics, liaison = pronouncing the final consonant of a word before a vowel-starting word. E.g. 'les_amis' — the s is pronounced." },
+    { "french": "le canal", "english": "the canal", "notes": "Masculine. Plural: des canaux (irregular -al → -aux)." },
+    { "french": "le pont", "english": "the bridge", "notes": "Masculine. 'Le pont de la rue Dieu' — from reading 2." },
+    { "french": "le quartier", "english": "the neighbourhood / district", "notes": "Masculine. 'Elle ne se promène jamais dans son quartier.' = She never walks in her neighbourhood." },
+    { "french": "la peau", "english": "the skin", "notes": "Feminine. Plural: des peaux. 'Le soleil n'est pas bon pour sa peau.' = The sun is not good for her skin." },
+    { "french": "l'opéra", "english": "the opera / opera house", "notes": "Masculine. Takes l' before vowel. 'Elle travaille près de l'opéra.' = She works near the opera house." },
+    { "french": "épuisé(e)", "english": "exhausted", "notes": "Adjective. Masculine: épuisé. Feminine: épuisée. 'Épuisée par le travail.' = Exhausted from work." },
+    { "french": "sur cour", "english": "overlooking the courtyard", "notes": "Preposition phrase. 'Un grand studio sur cour' = a large studio overlooking the courtyard. Opposite: sur rue (overlooking the street)." },
+    { "french": "traverser", "english": "to cross / to traverse", "notes": "Regular -ER verb. 'Elle la traverse à pied.' = She crosses it on foot." },
+    { "french": "se promener", "english": "to go for a walk / to stroll", "notes": "Reflexive -ER verb. 'Elle ne se promène jamais.' = She never goes for a walk." },
+    { "french": "carré(e)", "english": "square (shape)", "notes": "Adjective. 'La table est carrée.' = The table is square." },
+    { "french": "gros(se)", "english": "fat / large", "notes": "Masculine: gros. Feminine: grosse (double s). Opposite of mince (thin)." },
+    { "french": "mince", "english": "thin / slim", "notes": "Same form for masculine and feminine." },
+    { "french": "cher / chère", "english": "expensive / dear", "notes": "Masculine: cher. Feminine: chère (-er → -ère rule). 'C'est trop cher !' = It's too expensive!" },
+    { "french": "tranquille", "english": "quiet / calm", "notes": "Invariable adjective (same for m/f). Exception: ILL pronounced normally in 'tranquille', 'ville', 'mille'." },
+    { "french": "jamais", "english": "never", "notes": "Adverb. 'Ne… jamais' = never. 'Elle ne fait jamais de grandes choses.' = She never does big things." },
+    { "french": "peu", "english": "little / few / not much", "notes": "Adverb. 'Elle sort peu.' = She goes out little. 'Un peu' = a little." },
+    { "french": "donc", "english": "therefore / so", "notes": "Conjunction. 'Elle a peur de l'eau et donc du canal.' = She is afraid of water and therefore of the canal." },
+    { "french": "depuis", "english": "since / for (time)", "notes": "Preposition. 'Depuis plus de trente ans.' = For more than thirty years. Used with present tense for ongoing actions." },
+    { "french": "tous les matins", "english": "every morning", "notes": "Tous + les + noun (time). 'Tous les matins' = every morning. 'Tous les jours' = every day." },
+    { "french": "à pied", "english": "on foot", "notes": "Prepositional phrase. 'Elle la traverse à pied.' = She crosses it on foot." },
+    { "french": "faute", "english": "fault / mistake", "notes": "Feminine. 'C'est tout à fait votre faute.' = It is entirely your fault." },
+    { "french": "désolé(e)", "english": "sorry", "notes": "Adjective used as apology. 'Je suis désolé(e).' = I am sorry. Add -e for feminine." }
+  ],
+  "verbs": [
+    {
+      "infinitive": "vouloir",
+      "meaning": "to want",
+      "conjugations": {
+        "je": "veux",
+        "tu": "veux",
+        "il/elle": "veut",
+        "nous": "voulons",
+        "vous": "voulez",
+        "ils/elles": "veulent"
+      },
+      "notes": "Irregular modal verb. KEY: 'je voudrais' (conditional) = I would like — always use this in polite contexts instead of 'je veux'. 'Voudrais' is the conditional form, much more polite.",
+      "examples": [
+        "Je voudrais louer un appartement. — I would like to rent an apartment.",
+        "Vous voulez visiter le logement ? — Do you want to visit the property?",
+        "Ils veulent un studio meublé. — They want a furnished studio."
+      ]
+    },
+    {
+      "infinitive": "dire",
+      "meaning": "to say / to tell",
+      "conjugations": {
+        "je": "dis",
+        "tu": "dis",
+        "il/elle": "dit",
+        "nous": "disons",
+        "vous": "dites",
+        "ils/elles": "disent"
+      },
+      "notes": "Irregular. KEY EXCEPTION: vous dites (NOT 'disez'). One of only 3 irregular vous forms in French. From class notes this lesson.",
+      "examples": [
+        "Ce n'est pas bien de dire ça. — It's not nice to say that.",
+        "Comment dit-on 'hello' en français ? — How do you say 'hello' in French?",
+        "Qu'est-ce qu'il dit ? — What is he saying?"
+      ]
+    },
+    {
+      "infinitive": "regarder",
+      "meaning": "to watch / to look at",
+      "conjugations": {
+        "je": "regarde",
+        "tu": "regardes",
+        "il/elle": "regarde",
+        "nous": "regardons",
+        "vous": "regardez",
+        "ils/elles": "regardent"
+      },
+      "notes": "Regular -ER verb. From class notes this lesson. Common classroom instruction: 'Regardez les photos.' = Look at the photos.",
+      "examples": [
+        "Regardez les photos et la légende. — Look at the photos and the caption.",
+        "Je regarde la télévision. — I watch television.",
+        "Elle regarde par la fenêtre. — She looks out the window."
+      ]
+    },
+    {
+      "infinitive": "lire",
+      "meaning": "to read",
+      "conjugations": {
+        "je": "lis",
+        "tu": "lis",
+        "il/elle": "lit",
+        "nous": "lisons",
+        "vous": "lisez",
+        "ils/elles": "lisent"
+      },
+      "notes": "Irregular verb. From class notes (written as 'liser' in notes — correct infinitive is lire). Common instruction: 'Lisez le texte.' = Read the text.",
+      "examples": [
+        "Lisez le document et répondez aux questions. — Read the document and answer the questions.",
+        "Elle aime lire dans le métro. — She likes to read on the metro.",
+        "Je lis une annonce immobilière. — I am reading a property advertisement."
+      ]
+    },
+    {
+      "infinitive": "traverser",
+      "meaning": "to cross / to go through",
+      "conjugations": {
+        "je": "traverse",
+        "tu": "traverses",
+        "il/elle": "traverse",
+        "nous": "traversons",
+        "vous": "traversez",
+        "ils/elles": "traversent"
+      },
+      "notes": "Regular -ER verb. From Reading 2: 'Elle la traverse à pied tous les matins.' = She crosses it on foot every morning.",
+      "examples": [
+        "Elle traverse le canal sur le pont. — She crosses the canal on the bridge.",
+        "Nous traversons la ville à vélo. — We cross the city by bike.",
+        "Traversez la rue ! — Cross the road!"
+      ]
+    },
+    {
+      "infinitive": "se promener",
+      "meaning": "to go for a walk / to stroll",
+      "conjugations": {
+        "je": "me promène",
+        "tu": "te promènes",
+        "il/elle": "se promène",
+        "nous": "nous promenons",
+        "vous": "vous promenez",
+        "ils/elles": "se promènent"
+      },
+      "notes": "Reflexive -ER verb with stem change: promèn- (accent grave) in je/tu/il/ils. From Reading 2: 'Elle ne se promène jamais dans son quartier.'",
+      "examples": [
+        "Elle ne se promène jamais dans son quartier. — She never walks in her neighbourhood.",
+        "Nous nous promenons au parc le dimanche. — We walk in the park on Sundays.",
+        "Je me promène à pied. — I go for a walk on foot."
+      ]
+    },
+    {
+      "infinitive": "sortir",
+      "meaning": "to go out",
+      "conjugations": {
+        "je": "sors",
+        "tu": "sors",
+        "il/elle": "sort",
+        "nous": "sortons",
+        "vous": "sortez",
+        "ils/elles": "sortent"
+      },
+      "notes": "Irregular -IR verb. From Reading 2: 'Elle sort peu de son grand studio.' = She rarely goes out of her large studio.",
+      "examples": [
+        "Elle sort peu de son studio. — She rarely goes out of her studio.",
+        "Tu sors ce soir ? — Are you going out tonight?",
+        "Nous sortons tous les weekends. — We go out every weekend."
+      ]
+    },
+    {
+      "infinitive": "travailler",
+      "meaning": "to work",
+      "conjugations": {
+        "je": "travaille",
+        "tu": "travailles",
+        "il/elle": "travaille",
+        "nous": "travaillons",
+        "vous": "travaillez",
+        "ils/elles": "travaillent"
+      },
+      "notes": "Regular -ER verb. Note: -ill- is pronounced like 'y' (trav-ah-yay). From Reading 2: 'Elle travaille près de l'opéra.'",
+      "examples": [
+        "Elle travaille près de l'opéra. — She works near the opera house.",
+        "Je travaille au fond d'un grand bureau. — I work at the back of a large office.",
+        "Ils travaillent tous les jours. — They work every day."
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Le genre et le nombre des noms — plural rules in depth",
+      "explanation": "General rule: add -s (un ami → des amis). The -s is always SILENT. Special rule 1 — words ending in -au, -eau, -eu add -x: un château → des châteaux, un bureau → des bureaux, un gâteau → des gâteaux, un chapeau → des chapeaux. Special rule 2 — words ending in -al change to -aux: un canal → des canaux, un journal → des journaux, un animal → des animaux. Exception: un festival → des festivals (not -aux). Words already ending in -s, -x, or -z don't change: un bras → des bras, un prix → des prix. Remember the rule: C'est un stylo → Ce sont des stylos. C'est le stylo vert → Ce sont les stylos verts."
+    },
+    {
+      "title": "Le genre et le nombre des adjectifs — complete rules",
+      "explanation": "Adjectives are 'mirrors' — they reflect the gender and number of the noun. Basic feminine: add -e (grand → grande, petit → petite, carré → carrée). Basic plural: add -s (grand → grands, grande → grandes). Special feminine endings: -en → -enne (italien → italienne, indien → indienne, canadien → canadienne). -er → -ère (cher → chère, premier → première). -eux → -euse (heureux → heureuse, lumineux → lumineuse). -eur → -eure or -euse (depending on verb). Double consonant before -e: gros → grosse, bon → bonne. Invariable adjectives (never change): magnifique, calme, rouge, jaune, orange, tranquille, insolite, pratique, utile. NB: 'magnifique' is the same for masculine, feminine, singular and plural."
+    },
+    {
+      "title": "S'excuser et reprocher — apologising and blaming",
+      "explanation": "From the PPTX communication section. Apologising: Je suis désolé(e). / Excusez-moi. / Pardon. / Ce n'était pas intentionnel. / Pardonnez-moi. / Mes excuses. Blaming: C'est tout à fait votre faute. (It is entirely your fault.) Ce n'est pas bien de dire ça. (It's not nice to say that.) Ce n'est pas gentil. (That's not nice.) Making peace: Se réconcilier. / Faire la paix. / Oublier le passé. Formal apology: Je regrette. (I regret it.) Note: in formal contexts, use 'vous'. With friends, use 'tu': 'Excuse-moi.' (not 'Excusez-moi')."
+    },
+    {
+      "title": "Donner ses coordonnées — giving contact details",
+      "explanation": "Voici mon adresse mail / e-mail : [address] — Here is my email address. Mon numéro de portable est : [number] — My mobile number is. Je vous donne mon adresse postale : [address] — I'll give you my mailing address. Mon numéro de téléphone est le : [number] — My phone number is. Useful: épeler = to spell out. 'Vous pouvez épeler ?' = Can you spell that? Remember: French phone numbers always have 10 digits, spoken in pairs."
+    },
+    {
+      "title": "Ne… jamais — never (negation 2)",
+      "explanation": "Ne… jamais = never. It follows the same structure as ne… pas: ne before the verb, jamais after. 'Elle ne fait jamais de grandes choses.' = She never does big things. 'Elle ne se promène jamais.' = She never goes for a walk. Compare: ne… pas (not), ne… jamais (never), ne… plus (no longer), ne… rien (nothing). In informal spoken French, 'ne' is often dropped: 'Elle sort jamais.' Note: after ne… jamais, indefinite articles (un, une, des) change to de/d': 'Je ne mange jamais de viande.' = I never eat meat."
+    },
+    {
+      "title": "Depuis + present tense — ongoing actions",
+      "explanation": "French uses the PRESENT TENSE (not past) with 'depuis' to describe actions that started in the past and are still ongoing. 'Elle habite à côté du canal depuis plus de trente ans.' = She has been living next to the canal for more than thirty years (and still does). In English we use present perfect ('has been living'), in French: present tense + depuis. Contrast with English: 'I have lived here for 3 years' = 'J'habite ici depuis 3 ans.' Question: 'Depuis combien de temps habitez-vous ici ?' = How long have you lived here?"
+    },
+    {
+      "title": "Tous les / Toutes les — every (time expressions)",
+      "explanation": "Tous les + masculine time noun = every. Toutes les + feminine time noun = every. Tous les matins (every morning — matin is masculine). Tous les jours (every day). Tous les soirs (every evening). Toutes les semaines (every week — semaine is feminine). Toutes les heures (every hour — heure is feminine). From Reading 2: 'Elle la traverse à pied tous les matins.' = She crosses it on foot every morning."
+    }
+  ],
+  "key_phrases": [
+    { "french": "L'appartement est à louer ?", "english": "Is the apartment for rent?", "context": "Rental enquiry — asking if a property is available" },
+    { "french": "Le loyer est de combien ?", "english": "How much is the rent?", "context": "Rental question — asking the amount" },
+    { "french": "Est-ce que c'est loin du centre-ville ?", "english": "Is it far from the city centre?", "context": "Asking about location relative to city centre" },
+    { "french": "Mon studio est au premier étage.", "english": "My studio is on the first floor.", "context": "Describing apartment location" },
+    { "french": "C'est un trois-pièces.", "english": "It's a three-room apartment.", "context": "Describing the size of a property" },
+    { "french": "Voici mon adresse mail.", "english": "Here is my email address.", "context": "Giving contact information" },
+    { "french": "Mon numéro de portable est le…", "english": "My mobile number is…", "context": "Giving your phone number" },
+    { "french": "Je suis désolé(e). / Excusez-moi. / Pardon.", "english": "I am sorry. / Excuse me. / Pardon.", "context": "Apologising — three levels of formality" },
+    { "french": "Ce n'est pas bien de dire ça.", "english": "It's not nice to say that.", "context": "Mild reproach / blaming" },
+    { "french": "C'est tout à fait votre faute.", "english": "It is entirely your fault.", "context": "Direct blame — strong reproach" },
+    { "french": "Ce n'était pas intentionnel.", "english": "It was not intentional.", "context": "Defending yourself after a mistake" },
+    { "french": "Vous rêvez de dormir dans un lieu insolite ?", "english": "Do you dream of sleeping in an unusual place?", "context": "From the Phare de Kerbel reading — rhetorical question opener" },
+    { "french": "Le studio se compose d'une grande pièce à vivre.", "english": "The studio consists of a large living area.", "context": "Describing a property — 'se composer de' = to consist of" },
+    { "french": "Il n'y a pas d'ascenseur.", "english": "There is no lift.", "context": "Negative il y a — after negation, 'un/une/des' becomes 'de'" },
+    { "french": "Elle habite à côté du canal depuis plus de trente ans.", "english": "She has been living next to the canal for more than thirty years.", "context": "From Reading 2 — depuis + present tense for ongoing action" },
+    { "french": "Elle ne fait jamais de grandes choses.", "english": "She never does big things.", "context": "From Reading 2 — ne… jamais structure" },
+    { "french": "Elle travaille au fond d'un grand bureau.", "english": "She works at the back of a large office.", "context": "From Reading 2 — au fond de = at the back of" },
+    { "french": "Épuisée par le travail, elle sort peu.", "english": "Exhausted from work, she rarely goes out.", "context": "From Reading 2 — past participle as adjective + peu" },
+    { "french": "Où ? / Ou ?", "english": "Where? / Or", "context": "Common confusion: où (accent) = where. ou (no accent) = or. 'Où habites-tu ?' vs 'Un café ou un thé ?'" },
+    { "french": "Sur toi / Sur vous", "english": "On you (what you have with you)", "context": "From class: 'Qu'est-ce que vous avez sur vous ?' = What do you have on you? (what are you carrying)" }
+  ],
+  "cultural_notes": [
+    {
+      "title": "Le Phare de Kerbel — habitation insolite en Bretagne",
+      "content": "The Phare de Kerbel in Riantec (Bretagne / Brittany) is one of France's most unusual rental accommodations. At 25 metres high on the Breton coast near Lorient, it welcomes guests for weekend stays. The studio at the top consists of a large living area, a wood-burning stove (un poêle à bois), a private bathroom, and a small kitchen. Unfortunately, there is no lift — guests must climb 120 steps (soit l'équivalent de 7 étages). The spa is free to use. Rates (2013 prices): 360 CHF including breakfast and afternoon tea for 2 people. This type of accommodation is called 'une habitation insolite' (an unusual accommodation) — a growing trend in France offering stays in lighthouses, treehouses, floating homes, and other extraordinary spaces."
+    },
+    {
+      "title": "Le canal Saint-Martin — Paris landmark from Reading 2",
+      "content": "The Canal Saint-Martin is a 4.5km canal in the 10th and 11th arrondissements of Paris, connecting the Seine to the Canal de l'Ourcq. Built between 1805 and 1825 under Napoleon's orders, it passes under the Boulevard Richard-Lenoir for about 2km. The canal is crossed by several footbridges (des ponts), and its banks (les berges) are popular walking spots. The area around it — close to the Place de la République — has become one of the trendiest neighbourhoods in Paris. The Rue Dieu mentioned in Reading 2 is a real street in the 10th arrondissement, crossing the canal."
+    },
+    {
+      "title": "La Suisse francophone — Swiss French context",
+      "content": "Switzerland has four official languages: French (spoken in the west — la Suisse romande), German (the majority), Italian (south), and Romansh. The reading mentions 'le village valaisan des Cerniers' — the Valais (le Valais) is a French-speaking canton in southern Switzerland, famous for the Alps, skiing, and wine. Prices in Switzerland are in CHF (francs suisses) not euros. Switzerland is generally more expensive than France. Swiss French has some differences from French French: they say 'huitante' for 80 (not quatre-vingts), 'septante' for 70, and 'nonante' for 90."
+    }
+  ],
+  "practice_exercises": [
+    {
+      "type": "fill_in_the_blank",
+      "instruction": "Make these sentences negative using ne… jamais or ne… pas",
+      "items": [
+        { "prompt": "Elle fait de grandes choses. → (never)", "answer": "Elle ne fait jamais de grandes choses." },
+        { "prompt": "Elle se promène dans son quartier. → (never)", "answer": "Elle ne se promène jamais dans son quartier." },
+        { "prompt": "Il y a un ascenseur. → (not)", "answer": "Il n'y a pas d'ascenseur." },
+        { "prompt": "Elle sort de son studio. → (rarely — uses 'peu', not a negation)", "answer": "Elle sort peu de son studio." },
+        { "prompt": "Je mange de la viande. → (never)", "answer": "Je ne mange jamais de viande." }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "instruction": "Make the adjective agree with the noun",
+      "items": [
+        { "prompt": "Une salle de bains ___ (privé)", "answer": "privative" },
+        { "prompt": "Un appartement ___ (lumineux)", "answer": "lumineux (m. sing. — no change)" },
+        { "prompt": "Une vue ___ (magnifique)", "answer": "magnifique (invariable)" },
+        { "prompt": "Des bureaux ___ (grand)", "answer": "grands" },
+        { "prompt": "Une femme ___ (épuisé)", "answer": "épuisée" },
+        { "prompt": "Des châteaux ___ (beau)", "answer": "beaux" }
+      ]
+    },
+    {
+      "type": "translate",
+      "instruction": "Translate into French",
+      "items": [
+        { "prompt": "She has been living next to the canal for 30 years.", "answer": "Elle habite à côté du canal depuis 30 ans." },
+        { "prompt": "The studio consists of a large living area.", "answer": "Le studio se compose d'une grande pièce à vivre." },
+        { "prompt": "I am sorry, it was not intentional.", "answer": "Je suis désolé(e), ce n'était pas intentionnel." },
+        { "prompt": "Is the apartment furnished?", "answer": "L'appartement est meublé ?" },
+        { "prompt": "She never goes for a walk in her neighbourhood.", "answer": "Elle ne se promène jamais dans son quartier." }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "instruction": "Choose où (where) or ou (or)",
+      "items": [
+        { "prompt": "___ habites-tu ? (where)", "answer": "Où — with accent (= where)" },
+        { "prompt": "Tu veux un café ___ un thé ? (or)", "answer": "ou — no accent (= or)" },
+        { "prompt": "___ est l'appartement ? (where)", "answer": "Où — with accent" },
+        { "prompt": "Il habite à Paris ___ à Lyon ? (or)", "answer": "ou — no accent" }
+      ]
+    },
+    {
+      "type": "fill_in_the_blank",
+      "instruction": "Give the correct plural form",
+      "items": [
+        { "prompt": "un bureau → des ___", "answer": "bureaux (-au → -aux)" },
+        { "prompt": "un château → des ___", "answer": "châteaux (-eau → -eaux)" },
+        { "prompt": "un canal → des ___", "answer": "canaux (-al → -aux)" },
+        { "prompt": "un gâteau → des ___", "answer": "gâteaux" },
+        { "prompt": "un ami → des ___", "answer": "amis (regular: add -s)" },
+        { "prompt": "un bras → des ___", "answer": "bras (no change — already ends in -s)" }
+      ]
+    }
+  ],
+  "extra_sections": [
+    {
+      "label": "📖 Lecture 1 — Annonce : Chalet suisse insolite",
+      "icon": "📖",
+      "content": "Read aloud and practise the liaison sounds. Click 🔊 on each line to hear the correct pronunciation.",
+      "items": [
+        "Une chambre dans le charmant village valaisan des Cerniers, à 1400 m d'altitude.",
+        "Chaque dôme de 40 m² est meublé avec un lit double, un poêle à bois, une salle de bain privative.",
+        "Spa en utilisation libre et gratuit.",
+        "Tarifs 2013 : avec le petit déjeuner et le tea time, pour 2 personnes : 360 CHF.",
+        "—",
+        "🔑 Vocabulary in this text:",
+        "valaisan(e) — from the Valais region (Swiss adjective)",
+        "l'altitude (f) — altitude | meublé — furnished",
+        "un poêle à bois — a wood-burning stove",
+        "une salle de bain privative — a private bathroom",
+        "en utilisation libre et gratuit — free to use",
+        "le petit déjeuner — breakfast | le tea time — afternoon tea",
+        "—",
+        "🎯 Activity: Form pairs. One person describes the accommodation. The other prepares questions about: location, number of rooms, equipment, price.",
+        "Prononciation: Note the liaisons. Practise saying 'le et les' in the description."
+      ]
+    },
+    {
+      "label": "📖 Lecture 2 — Martine Gomez (extrait littéraire)",
+      "icon": "📖",
+      "content": "A short literary extract about Martine Gomez. Read aloud for pronunciation practice. Pay attention to silent letters and liaison.",
+      "items": [
+        "Martine Gomez est petite et elle ne fait jamais de grandes choses.",
+        "Sa vie est triste.",
+        "Elle habite à côté du canal Saint-Martin depuis plus de trente ans.",
+        "Elle le traverse à pied tous les matins, sur le pont de la rue Dieu,",
+        "pour prendre le métro, place de la République.",
+        "Car elle travaille près de l'Opéra, au fond d'un grand bureau.",
+        "—",
+        "Martine Gomez n'a pas d'amis et le soleil n'est pas bon pour sa peau.",
+        "Elle ne se promène jamais dans son quartier.",
+        "Elle a peur de l'eau et donc du canal.",
+        "À soixante ans, épuisée par le travail, elle sort peu",
+        "de son grand studio sur cour avec télévision 82 cm LCD.",
+        "—",
+        "🔑 Vocabulary in this text:",
+        "à côté du canal — next to the canal | depuis plus de trente ans — for more than 30 years",
+        "traverser à pied — to cross on foot | tous les matins — every morning",
+        "sur le pont — on the bridge | prendre le métro — to take the metro",
+        "au fond de — at the back of | la peau — skin",
+        "se promener — to go for a walk | épuisée — exhausted",
+        "sur cour — overlooking the courtyard",
+        "—",
+        "🎯 Pronunciation focus: Silent final consonants — ans, matins, tous, pont. Liaison: depuis_elle, depuis_plus. The nasal sounds: an (dans), in (Martin), on (fond, pont)."
+      ]
+    },
+    {
+      "label": "🔊 Phonétique — Complete Sound Guide",
+      "icon": "🔊",
+      "content": "From the Saison A1 Unit 2 PPTX — complete pronunciation guide.",
+      "items": [
+        "── CONSONANT CLUSTERS ──",
+        "GN → 'ny' sound: montagne [mon-tan-ye], champagne [sham-pan-ye]. Press middle of tongue to roof of mouth.",
+        "CH → 'sh' sound: chat [sha], chercher [sher-shay]. NEVER a hard 'tch' like 'chair'.",
+        "PH → 'f' sound: photo [fo-to]. Identical to English.",
+        "QU → 'k' sound: question [kes-tyon]. The U is SILENT. Never say 'kweh'.",
+        "TH → 't' sound: thé [tay]. French has NO 'th' (theta) sound. The H is silent.",
+        "── VOWEL TEAMS ──",
+        "OU → 'oo' sound: rouge [roozh], tout [too], vous [voo]. Like 'soup'.",
+        "OI → 'wa' sound: moi [mwa], boire [bwar]. Like 'walk'.",
+        "AU / EAU → 'o' sound: eau [o], auto [o-to], beau [bo]. Like 'no'.",
+        "AI / EI → 'eh' sound: mais [meh], neige [nehzh]. Like 'bed'.",
+        "EU / OEU → no English match: bleu [bluh], coeur [kuh]. Lips rounded, tongue forward.",
+        "── NASAL SOUNDS ──",
+        "AN / EN → nasalised 'ah': maman [ma-mã], enfant [ã-fã]. Air through nose.",
+        "IN / IM / AIN → nasalised 'a': vin [vã], pain [pã], main [mã].",
+        "ON / OM → nasalised 'o': bon [bõ], nom [nõ].",
+        "── SILENT FINAL LETTERS ──",
+        "Rule: Do NOT pronounce the final consonant UNLESS it is C, R, F, or L → think CAREFUL.",
+        "Paris [pa-ri] — S silent. Salut [sa-lü] — T silent. Poulet [poo-leh] — T silent.",
+        "Exception CAREFUL: avec [a-vek] — C pronounced. bonjour [bõ-zhoor] — R pronounced.",
+        "── THE FRENCH R ──",
+        "Lives in the THROAT, not the front of the mouth. Like gently gargling or clearing your throat.",
+        "Try: restaurant [res-to-rã]. First R = soft vibration at the very back of your tongue.",
+        "── U vs OU ──",
+        "U [y sound]: tu, mur, pur. Shape lips to say 'oo' but try to say 'ee'. Very tight lips.",
+        "OU [oo sound]: tout, vous, rouge. Lips very rounded and forward. Like 'moon'.",
+        "Common mistake: saying 'cou' (neck) when you mean 'cu'... get U vs OU right!",
+        "── THE S / Z RULE ──",
+        "Single S between two vowels → sounds like Z: maison [meh-zõ], rose [rohz].",
+        "Double SS between two vowels → sharp S sound: poisson [pwa-sõ].",
+        "Ç (cédille) → always soft S, even before a, o, u: garçon [gar-sõ].",
+        "── SEMI-VOWELS ──",
+        "ILL → 'y' sound: fille [fee-y], famille [fa-mee-y].",
+        "EXCEPTION: ville [veel], mille [meel], tranquille [trã-keel] — L pronounced normally!",
+        "OY → 'wa-y': voyage [vwa-yazh].",
+        "UI → 'wee': nuit [nwee], oui [wee].",
+        "── SILENT H ──",
+        "H muet (silent H): acts invisible. l'homme [lom], l'hôtel [lo-tel]. Do the liaison.",
+        "H aspiré (aspirated H): acts as a wall. No liaison. le héros [luh eh-ro] — tiny pause.",
+        "── ER VERB ENDINGS ──",
+        "Infinitives ending in -ER: the R is silent, E sounds like sharp 'ay'.",
+        "manger = mah-zhay | parler = par-lay | travailler = tra-vah-yay"
+      ]
+    },
+    {
+      "label": "🏠 S'informer sur un logement — Asking about a property",
+      "icon": "🏠",
+      "content": "Complete communication toolkit for property enquiries — from the PPTX.",
+      "items": [
+        "L'appartement est à louer ? — Is the apartment for rent?",
+        "L'appartement est meublé ? — Is the apartment furnished?",
+        "Le loyer est de combien ? — How much is the rent?",
+        "Combien ça coûte ? — How much does it cost?",
+        "Est-ce que c'est loin du centre-ville ? — Is it far from the city centre?",
+        "Il y a combien de pièces ? — How many rooms are there?",
+        "Y a-t-il un balcon / une terrasse / un garage ? — Is there a balcony / terrace / garage?",
+        "Quelle est la surface ? — What is the floor area?",
+        "C'est disponible à partir de quand ? — When is it available from?",
+        "Réponses types / Typical answers:",
+        "Mon studio est au premier étage. — My studio is on the first floor.",
+        "C'est un trois-pièces. — It's a three-room apartment.",
+        "Le loyer est de 850 euros par mois, charges comprises. — The rent is €850/month, utilities included.",
+        "C'est clair et lumineux. — It is bright and sunny.",
+        "Il n'y a pas d'ascenseur. — There is no lift.",
+        "C'est disponible à partir du 1er avril. — It is available from April 1st."
+      ]
+    },
+    {
+      "label": "😬 S'excuser et reprocher — Apologising & blaming",
+      "icon": "😬",
+      "content": "Full set of expressions for apologising, blaming, and making peace.",
+      "items": [
+        "── APOLOGISING ──",
+        "Je suis désolé(e). — I am sorry. (add -e if you are female)",
+        "Excusez-moi. (formal) / Excuse-moi. (informal) — Excuse me.",
+        "Pardon. — Pardon / Sorry.",
+        "Pardonnez-moi. (formal) — Forgive me.",
+        "Mes excuses. — My apologies.",
+        "Je regrette. — I regret it.",
+        "Ce n'était pas intentionnel. — It was not intentional.",
+        "── BLAMING ──",
+        "Ce n'est pas bien de dire ça. — It's not nice to say that.",
+        "Ce n'est pas gentil. — That's not nice.",
+        "C'est tout à fait votre faute. — It is entirely your fault.",
+        "C'est de ta faute ! — It's your fault! (informal)",
+        "── MAKING PEACE ──",
+        "Se réconcilier / Faire la paix. — To make peace.",
+        "Se rapprocher. — To get close again.",
+        "Demander pardon. — To ask for forgiveness.",
+        "Oublier le passé. — To forget the past.",
+        "── RESPONDING TO APOLOGIES ──",
+        "Ce n'est pas grave. — It's not serious / No worries.",
+        "Pas de problème. — No problem.",
+        "Je vous/t'en prie. — Don't mention it. / You're welcome."
+      ]
+    },
+    {
+      "label": "🔡 où vs ou — Common confusions",
+      "icon": "🔡",
+      "content": "From class notes — a frequently confused pair.",
+      "items": [
+        "où (with grave accent) = WHERE: Où habitez-vous ? = Where do you live?",
+        "ou (no accent) = OR: Un café ou un thé ? = A coffee or a tea?",
+        "Memory trick: 'où' has an accent like an arrow pointing — it's asking WHERE something is pointing to.",
+        "Other easily confused pairs from class:",
+        "sur = on (preposition): Le livre est sur la table. | sûr = sure/safe: Je suis sûr(e).",
+        "a = has (avoir, 3rd person): Il a un appartement. | à = at/to/in (preposition): J'habite à Paris.",
+        "du = of the / some (contracted article): Je mange du pain. | dû = had to (past participle of devoir).",
+        "la = the (fem. article): la cuisine | là = there (adverb): Elle est là."
+      ]
+    }
+  ]
+}
